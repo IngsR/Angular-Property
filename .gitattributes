@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.lock text eol=lf
+*.lockb binary
+*.json text eol=lf
+*.ts text eol=lf
+*.html text eol=lf
+*.css text eol=lf
