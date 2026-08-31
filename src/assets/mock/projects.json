@@ -1,0 +1,152 @@
+[
+  {
+    "id": "proj-kuranji-garden",
+    "slug": "kuranji-garden-residence",
+    "name": "Kuranji Garden Residence",
+    "description": "Cluster hunian tropis asri di kawasan berkembang Padang Timur dengan sistem cluster mandiri bebas banjir.",
+    "partnerId": "partner-ranah-minang",
+    "locationId": "loc-padang-kuranji",
+    "totalUnits": 48,
+    "completionYear": 2025
+  },
+  {
+    "id": "proj-tabing-asri",
+    "slug": "tabing-asri-regency",
+    "name": "Tabing Asri Regency",
+    "description": "Hunian minimalis kompak dekat kampus UNP dan akses cepat ke Bandara Internasional Minangkabau.",
+    "partnerId": "partner-ranah-minang",
+    "locationId": "loc-padang-tabing",
+    "totalUnits": 32,
+    "completionYear": 2024
+  },
+  {
+    "id": "proj-padang-bypass-townhouse",
+    "slug": "grand-bypass-townhouse",
+    "name": "Grand Bypass Townhouse Padang",
+    "description": "Kompleks hunian 2 lantai premium di koridor utama Bypass Padang dengan akses mudah ke Gerbang Tol.",
+    "partnerId": "partner-ranah-minang",
+    "locationId": "loc-padang-lubeg",
+    "totalUnits": 24,
+    "completionYear": 2025
+  },
+  {
+    "id": "proj-bsd-grand-freja",
+    "slug": "grand-freja-bsd-city",
+    "name": "Grand Freja at BSD City",
+    "description": "Koleksi rumah kompak mewah dengan smart layout, rooftop mezzanine, dan walking distance ke kawasan lifestyle.",
+    "partnerId": "partner-sinarmas-land",
+    "locationId": "loc-bsd-serpong",
+    "totalUnits": 120,
+    "completionYear": 2026
+  },
+  {
+    "id": "proj-gading-serpong-commercial",
+    "slug": "paramount-glaze-shophouse",
+    "name": "Glaze Commercial Shophouse Serpong",
+    "description": "Ruko komersial 3 lantai bernilai investasi tinggi dengan traffic aktif di jantung Gading Serpong.",
+    "partnerId": "partner-sinarmas-land",
+    "locationId": "loc-tangerang-gadingserpong",
+    "totalUnits": 18,
+    "completionYear": 2024
+  },
+  {
+    "id": "proj-jaksel-cilandak",
+    "slug": "fatmawati-city-center",
+    "name": "Fatmawati City Center Residence",
+    "description": "Superblock TOD modern yang terintegrasi langsung dengan Stasiun MRT Fatmawati dan akses tol JORR.",
+    "partnerId": "partner-ciputra-group",
+    "locationId": "loc-jaksel-cilandak",
+    "totalUnits": 280,
+    "completionYear": 2024
+  },
+  {
+    "id": "proj-jakbar-puri-orchard",
+    "slug": "puri-orchard-penthouse",
+    "name": "Puri Orchard Luxury Suites",
+    "description": "Kondominium prestisius di CBD Jakarta Barat dengan sky garden, olympic pool, dan akses cepat ke Bandara Soetta.",
+    "partnerId": "partner-ciputra-group",
+    "locationId": "loc-jakbar-puri",
+    "totalUnits": 160,
+    "completionYear": 2025
+  },
+  {
+    "id": "proj-summarecon-bekasi-morizen",
+    "slug": "the-morizen-summarecon-bekasi",
+    "name": "The Morizen Summarecon Bekasi",
+    "description": "Hunian mewah tepi danau rancangan arsitek Jepang Sumitomo Forestry dengan standar efisiensi energi.",
+    "partnerId": "partner-sinarmas-land",
+    "locationId": "loc-bekasi-summarecon",
+    "totalUnits": 56,
+    "completionYear": 2025
+  },
+  {
+    "id": "proj-sentul-alaya-hills",
+    "slug": "sentul-alaya-nature-hills",
+    "name": "Sentul Alaya Nature Hills",
+    "description": "Hunian villa modern kontemporer di perbukitan Sentul dengan view pegunungan dan lapangan golf.",
+    "partnerId": "partner-ciputra-group",
+    "locationId": "loc-bogor-sentul",
+    "totalUnits": 40,
+    "completionYear": 2025
+  },
+  {
+    "id": "proj-dago-panorama",
+    "slug": "dago-panorama-hills",
+    "name": "Dago Panorama Hills",
+    "description": "Residensi eksklusif di dataran tinggi Bandung dengan panorama kota spektakuler dan udara sejuk pegunungan.",
+    "partnerId": "partner-ciputra-group",
+    "locationId": "loc-bandung-dago",
+    "totalUnits": 35,
+    "completionYear": 2025
+  },
+  {
+    "id": "proj-jogja-kaliurang-heritage",
+    "slug": "kaliurang-botanical-residence",
+    "name": "Kaliurang Botanical Heritage Estate",
+    "description": "Hunian peristirahatan berarsitektur etnik-modern tropis dengan pemandangan Gunung Merapi dan suasana asri.",
+    "partnerId": "partner-ciputra-group",
+    "locationId": "loc-jogja-kaliurang",
+    "totalUnits": 28,
+    "completionYear": 2024
+  },
+  {
+    "id": "proj-surabaya-grand-pakuwon",
+    "slug": "grand-pakuwon-regency-surabaya",
+    "name": "Grand Pakuwon Signature Residence",
+    "description": "Kota mandiri berkelas dunia di Surabaya Barat dengan danau alami, clubhouse megah, dan flyover eksklusif.",
+    "partnerId": "partner-sinarmas-land",
+    "locationId": "loc-surabaya-timur",
+    "totalUnits": 90,
+    "completionYear": 2025
+  },
+  {
+    "id": "proj-medan-citraland-gama",
+    "slug": "citraland-gama-city-medan",
+    "name": "CitraLand Gama City The Singapore of Medan",
+    "description": "Kawasan mandiri termegah di Sumatera Utara berkonsep The Singapore of Medan dengan danau dan patung ikonik.",
+    "partnerId": "partner-ciputra-group",
+    "locationId": "loc-medan-gamacity",
+    "totalUnits": 110,
+    "completionYear": 2026
+  },
+  {
+    "id": "proj-canggu-sanctuary",
+    "slug": "canggu-berawa-villas",
+    "name": "Canggu Berawa Sanctuary Villas",
+    "description": "Boutique compound 12 unit villa modern tropical dekat Pantai Berawa dengan fully managed rental management.",
+    "partnerId": "partner-bali-paradise",
+    "locationId": "loc-bali-canggu",
+    "totalUnits": 12,
+    "completionYear": 2024
+  },
+  {
+    "id": "proj-ubud-rainforest-villas",
+    "slug": "ubud-rainforest-retreat-villas",
+    "name": "Ubud Rainforest Retreat & Villas",
+    "description": "Koleksi villa privat di lereng lembah Sungai Ayung Ubud yang menawarkan kedamaian alami dan yield sewa tinggi.",
+    "partnerId": "partner-bali-paradise",
+    "locationId": "loc-bali-ubud",
+    "totalUnits": 8,
+    "completionYear": 2024
+  }
+]

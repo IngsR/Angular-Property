@@ -1,0 +1,1525 @@
+[
+  {
+    "id": "prop-padang-type-45",
+    "slug": "modern-house-type-45-kuranji-padang",
+    "title": "Modern Minimalist House Type 45/90 Kuranji",
+    "tagline": "Hunian Tropis Bebas Banjir dengan Pencahayaan Alami Maksimal",
+    "description": "Dirancang khusus dengan konsep Rumah Tumbuh Tropis Modern, hunian ini mengutamakan sirkulasi udara silang (cross ventilation) dan pencahayaan alami di setiap sudut ruangan. Terletak di kawasan strategis Kuranji Padang yang dekat dengan Kampus Universitas Andalas dan akses Jalan Bypass. Bangunan kokoh berfondasi cakar ayam bertulang anti-gempa dengan sertifikat hak milik (SHM) murni siap balik nama.",
+    "transactionType": "BUY",
+    "price": 685000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-rumah",
+    "propertyTypeName": "Rumah Tapak",
+    "specification": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "landArea": 90,
+      "buildingArea": 45,
+      "floors": 1,
+      "parking": 1,
+      "certificate": "SHM (Sertifikat Hak Milik)",
+      "electricity": "1300 VA",
+      "furnishing": "SEMI_FURNISHED",
+      "facing": "NORTH"
+    },
+    "locationId": "loc-padang-kuranji",
+    "projectId": "proj-kuranji-garden",
+    "partnerId": "partner-ranah-minang",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-one-gate",
+      "fac-garden",
+      "fac-playground",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2024,
+    "createdAt": "2025-01-15T08:00:00Z",
+    "images": [
+      {
+        "id": "img-p45-1",
+        "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Depan Modern Minimalis Type 45 Padang",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-p45-2",
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Ruang Tamu Terbuka dengan Ceiling Tinggi",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-p45-3",
+        "url": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Kamar Tidur Utama Luas dan Hangat",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      },
+      {
+        "id": "img-p45-4",
+        "url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Dapur Minimalis Modern Lengkap Kitchen Set",
+        "category": "KITCHEN",
+        "sortOrder": 4
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-p45-1",
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1 (Ground Floor)",
+        "floor": 1,
+        "area": 45,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "note": "Layout terbuka menyatukan living & dining area, dilengkapi sisa tanah belakang 3x6m untuk renovasi rumah tumbuh.",
+        "rooms": [
+          { "name": "Ruang Tamu & Keluarga", "dimension": "3.50 × 4.00 m", "area": 14.0, "type": "living" },
+          { "name": "Kamar Tidur Utama", "dimension": "3.00 × 3.50 m", "area": 10.5, "type": "bedroom" },
+          { "name": "Kamar Tidur Anak", "dimension": "2.80 × 3.00 m", "area": 8.4, "type": "bedroom" },
+          { "name": "Kamar Mandi Utama", "dimension": "1.50 × 1.80 m", "area": 2.7, "type": "bathroom" },
+          { "name": "Dapur & Area Makan", "dimension": "2.50 × 2.80 m", "area": 7.0, "type": "kitchen" },
+          { "name": "Carport Mobil & Motor", "dimension": "3.00 × 4.50 m", "area": 13.5, "type": "carport" },
+          { "name": "Taman Depan & Belakang", "dimension": "3.00 × 3.00 m", "area": 9.0, "type": "garden" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-padang-type-70",
+    "slug": "contemporary-family-house-type-70-padang-barat",
+    "title": "Contemporary Family House Type 70/120 Padang Barat",
+    "tagline": "Rumah 2 Lantai Dekat Pantai Padang dengan Desain Skandinavia Tropis",
+    "description": "Hunian prestisius 2 lantai di kawasan berkembang Padang Barat. Menawarkan ceiling setinggi 3.8 meter, balkon privat dengan hembusan angin laut yang segar, serta carport kanopi untuk 2 mobil keluarga. Lokasi super strategis hanya 5 menit ke Pantai Padang, Plaza Andalas, dan pusat kuliner legendaris.",
+    "transactionType": "BUY",
+    "price": 1150000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-rumah",
+    "propertyTypeName": "Rumah Tapak",
+    "specification": {
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "landArea": 120,
+      "buildingArea": 70,
+      "floors": 2,
+      "parking": 2,
+      "certificate": "SHM (Sertifikat Hak Milik)",
+      "electricity": "2200 VA",
+      "furnishing": "UNFURNISHED",
+      "facing": "SOUTH"
+    },
+    "locationId": "loc-padang-barat",
+    "projectId": "proj-kuranji-garden",
+    "partnerId": "partner-ranah-minang",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-cctv",
+      "fac-one-gate",
+      "fac-garden",
+      "fac-playground",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2024,
+    "createdAt": "2025-01-20T10:00:00Z",
+    "images": [
+      {
+        "id": "img-p70-1",
+        "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad 2 Lantai Modern Contemporary Padang Barat",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-p70-2",
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Open Living Area Lantai 1",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-p70-3",
+        "url": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Master Bedroom Lantai 2 dengan Bukaan Jendela Lebar",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      },
+      {
+        "id": "img-p70-4",
+        "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Kamar Mandi Modern dengan Sanitair Toto",
+        "category": "BATHROOM",
+        "sortOrder": 4
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-p70-1",
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1 (Living, Dining, Guest Room)",
+        "floor": 1,
+        "area": 40,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "note": "Lantai 1 dirancang sebagai area komunal luas dan 1 kamar tidur untuk tamu/orang tua.",
+        "rooms": [
+          { "name": "Living & Dining Room", "dimension": "4.00 × 5.50 m", "area": 22.0, "type": "living" },
+          { "name": "Kamar Tamu / Lansia", "dimension": "3.00 × 3.00 m", "area": 9.0, "type": "bedroom" },
+          { "name": "Kamar Mandi Bawah", "dimension": "1.50 × 2.00 m", "area": 3.0, "type": "bathroom" },
+          { "name": "Modern Clean Kitchen", "dimension": "2.50 × 3.00 m", "area": 7.5, "type": "kitchen" },
+          { "name": "Dual Carport", "dimension": "5.00 × 4.50 m", "area": 22.5, "type": "carport" }
+        ]
+      },
+      {
+        "id": "fp-p70-2",
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 2 (Master Bedroom & Kids Room)",
+        "floor": 2,
+        "area": 30,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "note": "Lantai 2 khusus area privat keluarga dengan balkon menghadap taman.",
+        "rooms": [
+          { "name": "Master Bedroom & Wardrobe", "dimension": "3.50 × 4.00 m", "area": 14.0, "type": "bedroom" },
+          { "name": "Kamar Tidur Anak", "dimension": "3.00 × 3.20 m", "area": 9.6, "type": "bedroom" },
+          { "name": "Kamar Mandi Atas", "dimension": "1.80 × 2.00 m", "area": 3.6, "type": "bathroom" },
+          { "name": "Balkon Sunset View", "dimension": "1.50 × 3.50 m", "area": 5.25, "type": "balcony" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-padang-tabing-asri",
+    "slug": "rumah-asri-minimalis-tabing-padang-utara",
+    "title": "Rumah Asri Minimalis Tabing Padang Utara",
+    "tagline": "Akses Cepat 10 Menit Bandara BIM & Kampus UNP Padang",
+    "description": "Rumah tapak ramah budget di Tabing Padang Utara dengan struktur bata merah kokoh, plafon PVC gypsum, dan lingkungan perumahan yang tenang dan bersahabat. Sangat ideal untuk keluarga muda, dosen/akademisi, maupun profesional yang membutuhkan akses mobilitas tinggi.",
+    "transactionType": "BUY",
+    "price": 520000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-rumah",
+    "propertyTypeName": "Rumah Tapak",
+    "specification": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "landArea": 84,
+      "buildingArea": 40,
+      "floors": 1,
+      "parking": 1,
+      "certificate": "SHM (Sertifikat Hak Milik)",
+      "electricity": "1300 VA",
+      "furnishing": "UNFURNISHED",
+      "facing": "EAST"
+    },
+    "locationId": "loc-padang-tabing",
+    "projectId": "proj-tabing-asri",
+    "partnerId": "partner-ranah-minang",
+    "facilityIds": [
+      "fac-one-gate",
+      "fac-garden",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": false,
+    "yearBuilt": 2024,
+    "createdAt": "2025-02-01T09:00:00Z",
+    "images": [
+      {
+        "id": "img-tabing-1",
+        "url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Depan Rumah Tabing Padang",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-tabing-2",
+        "url": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Ruang Tamu Terbuka Tabing Asri",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-tabing-3",
+        "url": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Kamar Tidur Utama Tabing",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-tabing-1",
+        "url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai Dasar Type 40/84",
+        "floor": 1,
+        "area": 40,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "note": "Layout kompak fungsional tanpa lorong terbuang, hemat energi dengan jendela hadap Timur.",
+        "rooms": [
+          { "name": "Ruang Tamu & Keluarga", "dimension": "3.00 × 4.00 m", "area": 12.0, "type": "living" },
+          { "name": "Kamar Tidur Utama", "dimension": "3.00 × 3.00 m", "area": 9.0, "type": "bedroom" },
+          { "name": "Kamar Tidur Anak", "dimension": "2.80 × 2.80 m", "area": 7.84, "type": "bedroom" },
+          { "name": "Kamar Mandi", "dimension": "1.50 × 1.60 m", "area": 2.4, "type": "bathroom" },
+          { "name": "Dapur & Sisa Halaman Belakang", "dimension": "2.50 × 3.00 m", "area": 7.5, "type": "kitchen" },
+          { "name": "Carport & Taman Depan", "dimension": "3.00 × 4.50 m", "area": 13.5, "type": "carport" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-padang-bypass-townhouse",
+    "slug": "exclusive-townhouse-padang-bypass",
+    "title": "Exclusive Townhouse 2 Lantai Padang Bypass",
+    "tagline": "Private Cluster 24 Unit Dekat Kampus UPI YPTK & Gerbang Tol",
+    "description": "Hunian eksklusif 2 lantai di koridor emas Bypass Padang. Menggunakan kusen aluminium powder coating, lantai granit 60x60, sanitair standar Eropa, dan instalasi smart door lock. Kawasan perumahan dilengkapi sistem keamanan satu pintu (one gate system) dan pos jaga CCTV 24 jam.",
+    "transactionType": "BUY",
+    "price": 950000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-rumah",
+    "propertyTypeName": "Rumah Tapak",
+    "specification": {
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "landArea": 105,
+      "buildingArea": 85,
+      "floors": 2,
+      "parking": 2,
+      "certificate": "SHM (Sertifikat Hak Milik)",
+      "electricity": "2200 VA",
+      "furnishing": "SEMI_FURNISHED",
+      "facing": "NORTH"
+    },
+    "locationId": "loc-padang-lubeg",
+    "projectId": "proj-padang-bypass-townhouse",
+    "partnerId": "partner-ranah-minang",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-cctv",
+      "fac-one-gate",
+      "fac-garden",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2025,
+    "createdAt": "2025-02-10T11:00:00Z",
+    "images": [
+      {
+        "id": "img-bypass-1",
+        "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Townhouse Bypass Padang",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-bypass-2",
+        "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Ruang Tamu & Meja Makan Terintegrasi",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-bypass-3",
+        "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Master Bedroom Lantai 2 View Perbukitan",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-bypass-1",
+        "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1 (Ruang Tamu & Dapur)",
+        "floor": 1,
+        "area": 45,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "note": "Lantai 1 memiliki inner courtyard terbuka di bagian tengah untuk pencahayaan optimal.",
+        "rooms": [
+          { "name": "Living & Dining Area", "dimension": "4.00 × 5.00 m", "area": 20.0, "type": "living" },
+          { "name": "Kamar Tidur Tamu", "dimension": "3.00 × 3.00 m", "area": 9.0, "type": "bedroom" },
+          { "name": "Kamar Mandi 1", "dimension": "1.50 × 1.80 m", "area": 2.7, "type": "bathroom" },
+          { "name": "Dapur Modern", "dimension": "2.50 × 3.00 m", "area": 7.5, "type": "kitchen" },
+          { "name": "Inner Courtyard", "dimension": "2.00 × 3.00 m", "area": 6.0, "type": "garden" },
+          { "name": "Carport 2 Mobil", "dimension": "4.80 × 5.00 m", "area": 24.0, "type": "carport" }
+        ]
+      },
+      {
+        "id": "fp-bypass-2",
+        "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 2 (2 Kamar Tidur & Ruang Kerja)",
+        "floor": 2,
+        "area": 40,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "note": "Lantai 2 mencakup master suite dengan balkon kaca tempered dan ruang kerja/study area.",
+        "rooms": [
+          { "name": "Master Bedroom Suite", "dimension": "3.80 × 4.20 m", "area": 15.96, "type": "bedroom" },
+          { "name": "Kamar Anak", "dimension": "3.00 × 3.20 m", "area": 9.6, "type": "bedroom" },
+          { "name": "Study / Work Corner", "dimension": "2.00 × 2.50 m", "area": 5.0, "type": "living" },
+          { "name": "Kamar Mandi 2", "dimension": "1.80 × 2.00 m", "area": 3.6, "type": "bathroom" },
+          { "name": "Balkon Kaca", "dimension": "1.20 × 3.80 m", "area": 4.56, "type": "balcony" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-bsd-freja-house",
+    "slug": "scandinavian-smart-home-freja-bsd-city",
+    "title": "Scandinavian Smart Home Freja BSD City",
+    "tagline": "Fully Furnished Rumah Kompak Mewah Selangkah ke AEON Mall BSD",
+    "description": "Konsep hunian urban modern dengan pemanfaatan ruang vertikal optimal. Sudah full furnished dengan interior bergaya Skandinavia elegan, smart door lock, CCTV nirkabel, dan walking distance ke stasiun KRL Cisauk serta Intermoda BSD. Cocok bagi eksekutif muda di Jabodetabek.",
+    "transactionType": "BUY",
+    "price": 1420000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-rumah",
+    "propertyTypeName": "Rumah Tapak",
+    "specification": {
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "landArea": 50,
+      "buildingArea": 68,
+      "floors": 2,
+      "parking": 1,
+      "certificate": "HGB Murni (Bisa Naik ke SHM)",
+      "electricity": "3500 VA",
+      "furnishing": "FULLY_FURNISHED",
+      "facing": "NORTH"
+    },
+    "locationId": "loc-bsd-serpong",
+    "projectId": "proj-bsd-grand-freja",
+    "partnerId": "partner-sinarmas-land",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-cctv",
+      "fac-one-gate",
+      "fac-smart-home",
+      "fac-swimming-pool",
+      "fac-gym",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2024,
+    "createdAt": "2025-01-10T14:00:00Z",
+    "images": [
+      {
+        "id": "img-bsd-1",
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Rumah Urban Smart Home Freja BSD",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-bsd-2",
+        "url": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Ruang Tamu & Mezanin Skandinavia",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-bsd-3",
+        "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Dapur Minimalis & Meja Bar Terintegrasi",
+        "category": "KITCHEN",
+        "sortOrder": 3
+      },
+      {
+        "id": "img-bsd-4",
+        "url": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Master Suite Atas Lengkap Built-in Wardrobe",
+        "category": "BEDROOM",
+        "sortOrder": 4
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-bsd-1",
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1 (Urban Living & Kitchenette)",
+        "floor": 1,
+        "area": 34,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "note": "Smart storage di bawah tangga dan pantry multifungsi hemat tempat.",
+        "rooms": [
+          { "name": "Living Room & Breakfast Bar", "dimension": "3.50 × 4.80 m", "area": 16.8, "type": "living" },
+          { "name": "Compact Guest Bedroom", "dimension": "2.50 × 2.80 m", "area": 7.0, "type": "bedroom" },
+          { "name": "Powder Room / Bathroom", "dimension": "1.40 × 1.80 m", "area": 2.52, "type": "bathroom" },
+          { "name": "Dedicated Carport", "dimension": "3.00 × 4.50 m", "area": 13.5, "type": "carport" }
+        ]
+      },
+      {
+        "id": "fp-bsd-2",
+        "url": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 2 (Master Sanctuary & Mezzanine)",
+        "floor": 2,
+        "area": 34,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "note": "Kamar utama dengan ensuite bathroom dan sudut ruang kerja work-from-home.",
+        "rooms": [
+          { "name": "Master Suite Bedroom", "dimension": "3.50 × 4.50 m", "area": 15.75, "type": "bedroom" },
+          { "name": "En-Suite Bathroom", "dimension": "1.80 × 2.00 m", "area": 3.6, "type": "bathroom" },
+          { "name": "WFH Workspace Corner", "dimension": "1.80 × 2.20 m", "area": 3.96, "type": "living" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-jaksel-cilandak-apt",
+    "slug": "skyline-condo-suite-cilandak-jakarta-selatan",
+    "title": "Skyline Condo Suite Cilandak TB Simatupang",
+    "tagline": "Akses Langsung Skybridge ke Stasiun MRT Fatmawati",
+    "description": "Kondominium vertikal premium di koridor bisnis TB Simatupang. Memiliki panorama kota Jakarta Selatan tanpa halangan, fasilitas infinity pool di lantai 35, gym 24 jam, dan terhubung langsung dengan stasiun MRT. Pilihan terbaik bagi ekspatriat dan profesional bisnis.",
+    "transactionType": "BUY",
+    "price": 1850000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-apartemen",
+    "propertyTypeName": "Apartemen & Kondominium",
+    "specification": {
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "landArea": 0,
+      "buildingArea": 64,
+      "floors": 1,
+      "parking": 1,
+      "certificate": "Strata Title (Hak Milik Atas Satuan Rumah Susun)",
+      "electricity": "4400 VA",
+      "furnishing": "FULLY_FURNISHED",
+      "facing": "SOUTH"
+    },
+    "locationId": "loc-jaksel-cilandak",
+    "projectId": "proj-jaksel-cilandak",
+    "partnerId": "partner-ciputra-group",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-cctv",
+      "fac-smart-home",
+      "fac-swimming-pool",
+      "fac-gym",
+      "fac-playground",
+      "fac-jogging-track"
+    ],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2024,
+    "createdAt": "2025-01-05T12:00:00Z",
+    "images": [
+      {
+        "id": "img-jkt-1",
+        "url": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Eksterior Tower Menara Kondominium Cilandak",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-jkt-2",
+        "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Living Room Modern Minimalis dengan Balkon City View",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-jkt-3",
+        "url": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Kamar Tidur Utama Suite Lantai 22",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      },
+      {
+        "id": "img-jkt-4",
+        "url": "https://images.unsplash.com/photo-1571888165893-6c841362096e?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Infinity Sky Pool Menghadap Gedung Bertingkat",
+        "category": "FACILITY",
+        "sortOrder": 4
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-jkt-1",
+        "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Unit 2-Bedroom Corner Suite (Level 22)",
+        "floor": 22,
+        "area": 64,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "note": "Unit sudut dengan bukaan kaca ganda kedap suara menghadap panorama Gunung Salak & Kota Jakarta.",
+        "rooms": [
+          { "name": "Open Living & Dining Space", "dimension": "3.80 × 5.20 m", "area": 19.76, "type": "living" },
+          { "name": "Master Suite Bedroom", "dimension": "3.50 × 4.20 m", "area": 14.7, "type": "bedroom" },
+          { "name": "Second Bedroom / Study", "dimension": "3.00 × 3.20 m", "area": 9.6, "type": "bedroom" },
+          { "name": "Master En-Suite Bathroom", "dimension": "1.80 × 2.20 m", "area": 3.96, "type": "bathroom" },
+          { "name": "Guest Bathroom", "dimension": "1.50 × 1.80 m", "area": 2.7, "type": "bathroom" },
+          { "name": "Open Kitchen & Laundry Niche", "dimension": "2.20 × 2.80 m", "area": 6.16, "type": "kitchen" },
+          { "name": "City View Skyline Balcony", "dimension": "1.40 × 3.80 m", "area": 5.32, "type": "balcony" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-jakbar-puri-apartment",
+    "slug": "luxury-penthouse-suite-puri-orchard-jakarta-barat",
+    "title": "Luxury Penthouse Suite Puri Orchard Jakarta Barat",
+    "tagline": "Apartemen 3 Kamar Tidur Eksklusif dengan Private Lift & Sky Garden",
+    "description": "Kondominium mewah di jantung CBD Puri Kembangan Jakarta Barat. Dilengkapi lift privat langsung menuju unit, lantai marmer import Italia, smart home automation, dan pemandangan cakrawala Jakarta Barat yang memesona. Akses kilat 15 menit ke Bandara Soekarno-Hatta via Tol JORR W2.",
+    "transactionType": "BUY",
+    "price": 2650000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-apartemen",
+    "propertyTypeName": "Apartemen & Kondominium",
+    "specification": {
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "landArea": 0,
+      "buildingArea": 98,
+      "floors": 1,
+      "parking": 2,
+      "certificate": "Strata Title (Hak Milik Rusun)",
+      "electricity": "5500 VA",
+      "furnishing": "FULLY_FURNISHED",
+      "facing": "EAST"
+    },
+    "locationId": "loc-jakbar-puri",
+    "projectId": "proj-jakbar-puri-orchard",
+    "partnerId": "partner-ciputra-group",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-cctv",
+      "fac-smart-home",
+      "fac-swimming-pool",
+      "fac-gym",
+      "fac-tennis-court",
+      "fac-playground"
+    ],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2025,
+    "createdAt": "2025-02-15T15:00:00Z",
+    "images": [
+      {
+        "id": "img-puri-1",
+        "url": "https://images.unsplash.com/photo-1567496898669-ee935f5f647a?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Living Room Marmer Mewah Penthouse Puri",
+        "category": "INTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-puri-2",
+        "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Sky Pool & Sunset Deck Lantai Atas",
+        "category": "FACILITY",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-puri-3",
+        "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Kamar Tidur Utama King Bed",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-puri-1",
+        "url": "https://images.unsplash.com/photo-1567496898669-ee935f5f647a?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Unit Penthouse 3-Bedroom (Level 38)",
+        "floor": 38,
+        "area": 98,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "note": "Dilengkapi private lift foyer, dry & wet kitchen terpisah, dan master suite walk-in closet.",
+        "rooms": [
+          { "name": "Private Lift Foyer", "dimension": "2.00 × 2.50 m", "area": 5.0, "type": "living" },
+          { "name": "Grand Living & Dining Room", "dimension": "4.50 × 6.50 m", "area": 29.25, "type": "living" },
+          { "name": "Master Suite with Walk-In Closet", "dimension": "4.00 × 5.00 m", "area": 20.0, "type": "bedroom" },
+          { "name": "Junior Suite Bedroom", "dimension": "3.50 × 3.80 m", "area": 13.3, "type": "bedroom" },
+          { "name": "Kids Bedroom", "dimension": "3.00 × 3.50 m", "area": 10.5, "type": "bedroom" },
+          { "name": "Master En-Suite with Bathtub", "dimension": "2.20 × 2.80 m", "area": 6.16, "type": "bathroom" },
+          { "name": "Second Bathroom", "dimension": "1.60 × 2.00 m", "area": 3.2, "type": "bathroom" },
+          { "name": "Gourmet Island Kitchen", "dimension": "3.00 × 3.20 m", "area": 9.6, "type": "kitchen" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-bekasi-summarecon-mansion",
+    "slug": "the-morizen-residence-summarecon-bekasi",
+    "title": "The Morizen Lakefront Mansion Summarecon Bekasi",
+    "tagline": "Hunian Mewah Tepi Danau Arsitektur Jepang Sumitomo Forestry",
+    "description": "Mahakarya hunian tepi danau eksklusif hasil kolaborasi Summarecon dan Sumitomo Forestry Jepang. Mengusung filosofi arsitektur bernafas alami, panel surya terintegrasi, sanitair Toto Neorest, dan clubhouse danau pribadi dengan keamanan triple gate.",
+    "transactionType": "BUY",
+    "price": 3850000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-rumah",
+    "propertyTypeName": "Rumah Tapak",
+    "specification": {
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "landArea": 162,
+      "buildingArea": 195,
+      "floors": 2,
+      "parking": 2,
+      "certificate": "SHM (Sertifikat Hak Milik)",
+      "electricity": "5500 VA",
+      "furnishing": "SEMI_FURNISHED",
+      "facing": "NORTH"
+    },
+    "locationId": "loc-bekasi-summarecon",
+    "projectId": "proj-summarecon-bekasi-morizen",
+    "partnerId": "partner-sinarmas-land",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-cctv",
+      "fac-one-gate",
+      "fac-smart-home",
+      "fac-swimming-pool",
+      "fac-gym",
+      "fac-clubhouse",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2025,
+    "createdAt": "2025-02-18T10:00:00Z",
+    "images": [
+      {
+        "id": "img-morizen-1",
+        "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Megah Japanese Modern The Morizen Bekasi",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-morizen-2",
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Living Room Double Ceiling View Danau",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-morizen-3",
+        "url": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Kamar Tidur Utama Suite Mewah",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-morizen-1",
+        "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1 (Lake View Living & Guest Suite)",
+        "floor": 1,
+        "area": 105,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "note": "Ruang keluarga double-height 6 meter dengan bukaan kaca geser lebar menuju dek danau.",
+        "rooms": [
+          { "name": "Double-Height Grand Living Room", "dimension": "5.00 × 7.00 m", "area": 35.0, "type": "living" },
+          { "name": "Guest Suite Bedroom", "dimension": "3.80 × 4.00 m", "area": 15.2, "type": "bedroom" },
+          { "name": "Guest Bathroom & Powder Room", "dimension": "2.00 × 2.50 m", "area": 5.0, "type": "bathroom" },
+          { "name": "Open Wet & Dry Kitchen", "dimension": "3.50 × 4.50 m", "area": 15.75, "type": "kitchen" },
+          { "name": "Lakefront Timber Sun Deck", "dimension": "3.00 × 6.00 m", "area": 18.0, "type": "garden" },
+          { "name": "2-Car Covered Garage", "dimension": "5.50 × 6.00 m", "area": 33.0, "type": "carport" }
+        ]
+      },
+      {
+        "id": "fp-morizen-2",
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 2 (Master Suite & 2 Kids Bedroom)",
+        "floor": 2,
+        "area": 90,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "note": "Lantai atas privat dengan jembatan void kaca dan kamar mandi utama dengan jacuzzi.",
+        "rooms": [
+          { "name": "Grand Master Suite", "dimension": "4.50 × 5.50 m", "area": 24.75, "type": "bedroom" },
+          { "name": "Master Spa Bathroom with Tub", "dimension": "2.50 × 3.50 m", "area": 8.75, "type": "bathroom" },
+          { "name": "Bedroom 2 (En-Suite)", "dimension": "3.50 × 4.00 m", "area": 14.0, "type": "bedroom" },
+          { "name": "Bedroom 3", "dimension": "3.20 × 3.80 m", "area": 12.16, "type": "bedroom" },
+          { "name": "Family Lounge Void View", "dimension": "3.50 × 4.00 m", "area": 14.0, "type": "living" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-bogor-sentul-highland",
+    "slug": "sentul-alaya-nature-hills-villa-bogor",
+    "title": "Sentul Alaya Nature Hills Villa Bogor",
+    "tagline": "Villa Kontemporer View Pegunungan & Lapangan Golf Sentul",
+    "description": "Hunian peristirahatan modern di perbukitan Sentul City dengan ketinggian 400 mdpl yang sejuk dan asri. Memiliki taman belakang bertingkat, area BBQ keluarga, dan akses tol Jakarta-Bogor hanya 45 menit. Pilihan idaman untuk hunian akhir pekan keluarga.",
+    "transactionType": "BUY",
+    "price": 1750000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-rumah",
+    "propertyTypeName": "Rumah Tapak",
+    "specification": {
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "landArea": 144,
+      "buildingArea": 115,
+      "floors": 2,
+      "parking": 2,
+      "certificate": "SHM (Sertifikat Hak Milik)",
+      "electricity": "3500 VA",
+      "furnishing": "SEMI_FURNISHED",
+      "facing": "SOUTH"
+    },
+    "locationId": "loc-bogor-sentul",
+    "projectId": "proj-sentul-alaya-hills",
+    "partnerId": "partner-ciputra-group",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-cctv",
+      "fac-one-gate",
+      "fac-garden",
+      "fac-playground",
+      "fac-jogging-track",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": false,
+    "yearBuilt": 2025,
+    "createdAt": "2025-02-12T13:00:00Z",
+    "images": [
+      {
+        "id": "img-sentul-1",
+        "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Villa Kontemporer Sentul Hills",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-sentul-2",
+        "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Ruang Keluarga Terbuka dengan Pemandangan Bukit",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-sentul-3",
+        "url": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Kamar Tidur Utama Lantai Atas",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-sentul-1",
+        "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1 (Garden Terrace & Living)",
+        "floor": 1,
+        "area": 60,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "note": "Menyatu dengan teras belakang untuk santap pagi di udara sejuk pegunungan.",
+        "rooms": [
+          { "name": "Living & Dining Room", "dimension": "4.50 × 5.50 m", "area": 24.75, "type": "living" },
+          { "name": "Kamar Tamu / Orang Tua", "dimension": "3.20 × 3.50 m", "area": 11.2, "type": "bedroom" },
+          { "name": "Kamar Mandi 1", "dimension": "1.60 × 2.00 m", "area": 3.2, "type": "bathroom" },
+          { "name": "Dapur Bersih", "dimension": "2.80 × 3.00 m", "area": 8.4, "type": "kitchen" },
+          { "name": "Halaman BBQ Belakang", "dimension": "4.00 × 6.00 m", "area": 24.0, "type": "garden" },
+          { "name": "Carport 2 Mobil", "dimension": "5.00 × 4.80 m", "area": 24.0, "type": "carport" }
+        ]
+      },
+      {
+        "id": "fp-sentul-2",
+        "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 2 (Master Sanctuary & Kids Room)",
+        "floor": 2,
+        "area": 55,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "note": "Dua kamar tidur lantai atas dilengkapi kamar mandi dalam dan balkon view lembah hijau.",
+        "rooms": [
+          { "name": "Master Suite Mountain View", "dimension": "4.00 × 4.80 m", "area": 19.2, "type": "bedroom" },
+          { "name": "Kamar Anak Suite", "dimension": "3.50 × 3.80 m", "area": 13.3, "type": "bedroom" },
+          { "name": "Dual En-Suite Bathrooms", "dimension": "1.80 × 2.00 m", "area": 3.6, "type": "bathroom" },
+          { "name": "Balkon Panoramic View", "dimension": "1.50 × 4.50 m", "area": 6.75, "type": "balcony" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-bandung-dago-villa",
+    "slug": "panoramic-resort-villa-dago-atas-bandung",
+    "title": "Panoramic Resort Villa Dago Pakar Atas Bandung",
+    "tagline": "Villa Mewah Udara Sejuk 18°C dengan Infinity Pool & City Light View",
+    "description": "Koleksi villa lereng bukit Dago Pakar dengan arsitektur tropis kontemporer. Memiliki infinity swimming pool pribadi, dek kayu santai untuk melihat gemerlap lampu malam Kota Bandung, dan material dinding batu alam Andesit lokal berkualitas tinggi. Hanya 10 menit dari ITB dan kawasan kafe Dago.",
+    "transactionType": "BUY",
+    "price": 3200000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-villa",
+    "propertyTypeName": "Villa & Resort Residence",
+    "specification": {
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "landArea": 240,
+      "buildingArea": 180,
+      "floors": 2,
+      "parking": 3,
+      "certificate": "SHM (Sertifikat Hak Milik)",
+      "electricity": "4400 VA",
+      "furnishing": "SEMI_FURNISHED",
+      "facing": "SOUTH"
+    },
+    "locationId": "loc-bandung-dago",
+    "projectId": "proj-dago-panorama",
+    "partnerId": "partner-ciputra-group",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-cctv",
+      "fac-swimming-pool",
+      "fac-garden",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2024,
+    "createdAt": "2025-01-25T11:00:00Z",
+    "images": [
+      {
+        "id": "img-dago-1",
+        "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Villa Modern Tropical Dago Bandung",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-dago-2",
+        "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Living Room Kaca Terbuka Menghadap Kolam Renang",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-dago-3",
+        "url": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Dapur Mewah Island Table Kayu Solid",
+        "category": "KITCHEN",
+        "sortOrder": 3
+      },
+      {
+        "id": "img-dago-4",
+        "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Private Infinity Pool Dago Citylight",
+        "category": "FACILITY",
+        "sortOrder": 4
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-dago-1",
+        "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1 (Pool Pavilion & Entertainment)",
+        "floor": 1,
+        "area": 100,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "note": "Living room berlantai marmer dengan pintu geser kaca lipat 10 meter langsung menuju infinity pool.",
+        "rooms": [
+          { "name": "Open-Concept Grand Living Room", "dimension": "6.00 × 7.50 m", "area": 45.0, "type": "living" },
+          { "name": "Gourmet Chef Island Kitchen", "dimension": "3.50 × 4.50 m", "area": 15.75, "type": "kitchen" },
+          { "name": "Guest Suite Bedroom", "dimension": "3.80 × 4.20 m", "area": 15.96, "type": "bedroom" },
+          { "name": "Guest Powder Room", "dimension": "1.80 × 2.00 m", "area": 3.6, "type": "bathroom" },
+          { "name": "Private Infinity Pool & Deck", "dimension": "4.00 × 9.00 m", "area": 36.0, "type": "garden" },
+          { "name": "Triple Covered Carport", "dimension": "6.00 × 5.50 m", "area": 33.0, "type": "carport" }
+        ]
+      },
+      {
+        "id": "fp-dago-2",
+        "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 2 (3 Bedrooms & Sky View Lounge)",
+        "floor": 2,
+        "area": 80,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "note": "Master bedroom dengan balkon kantilever 180 derajat menghadap keindahan lembah Dago.",
+        "rooms": [
+          { "name": "Executive Master Sanctuary", "dimension": "4.50 × 5.50 m", "area": 24.75, "type": "bedroom" },
+          { "name": "En-Suite Spa Bathroom with Tub", "dimension": "2.50 × 3.00 m", "area": 7.5, "type": "bathroom" },
+          { "name": "Second Bedroom", "dimension": "3.50 × 4.00 m", "area": 14.0, "type": "bedroom" },
+          { "name": "Third Bedroom", "dimension": "3.20 × 3.80 m", "area": 12.16, "type": "bedroom" },
+          { "name": "Sky View Balcony Lounge", "dimension": "2.50 × 6.00 m", "area": 15.0, "type": "balcony" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-jogja-kaliurang-estate",
+    "slug": "kaliurang-botanical-heritage-estate-yogyakarta",
+    "title": "Kaliurang Botanical Heritage Estate Yogyakarta",
+    "tagline": "Villa Etnik Modern Dekat UII dengan Pemandangan Gunung Merapi",
+    "description": "Hunian berarsitektur perpaduan Pendopo Jawa kontemporer dengan kenyamanan standar modern di lereng Kaliurang. Suasana tenang dengan pepohonan rindang, udara sejuk pegunungan, dan sirkulasi udara alami yang segar. Lokasi sangat ideal untuk hunian masa pensiun maupun villa sewa harian Airbnb.",
+    "transactionType": "BUY",
+    "price": 1450000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-villa",
+    "propertyTypeName": "Villa & Resort Residence",
+    "specification": {
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "landArea": 180,
+      "buildingArea": 110,
+      "floors": 1,
+      "parking": 2,
+      "certificate": "SHM (Sertifikat Hak Milik)",
+      "electricity": "2200 VA",
+      "furnishing": "FULLY_FURNISHED",
+      "facing": "NORTH"
+    },
+    "locationId": "loc-jogja-kaliurang",
+    "projectId": "proj-jogja-kaliurang-heritage",
+    "partnerId": "partner-ciputra-group",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-one-gate",
+      "fac-garden",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2024,
+    "createdAt": "2025-02-05T16:00:00Z",
+    "images": [
+      {
+        "id": "img-jogja-1",
+        "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Villa Etnik Modern Kaliurang Jogja",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-jogja-2",
+        "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Ruang Tamu Kayu Jati Perhutani Hangat",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-jogja-3",
+        "url": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Kamar Tidur Utama View Taman Bambu",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-jogja-1",
+        "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah 1 Lantai (Pendopo Living & 3 Bedrooms)",
+        "floor": 1,
+        "area": 110,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "note": "Langit-langit tumpangsari kayu jati ekspos dengan sirkulasi udara alami anti panas.",
+        "rooms": [
+          { "name": "Pendopo Living & Dining Hall", "dimension": "5.50 × 6.00 m", "area": 33.0, "type": "living" },
+          { "name": "Master Suite Bedroom", "dimension": "4.00 × 4.50 m", "area": 18.0, "type": "bedroom" },
+          { "name": "Kamar Tidur 2", "dimension": "3.50 × 3.80 m", "area": 13.3, "type": "bedroom" },
+          { "name": "Kamar Tidur 3", "dimension": "3.00 × 3.50 m", "area": 10.5, "type": "bedroom" },
+          { "name": "Kamar Mandi 1 (Ensuite)", "dimension": "2.00 × 2.20 m", "area": 4.4, "type": "bathroom" },
+          { "name": "Kamar Mandi 2", "dimension": "1.80 × 2.00 m", "area": 3.6, "type": "bathroom" },
+          { "name": "Dapur Terbuka Nuansa Kayu", "dimension": "3.00 × 3.50 m", "area": 10.5, "type": "kitchen" },
+          { "name": "Taman Tropis Belakang", "dimension": "4.00 × 8.00 m", "area": 32.0, "type": "garden" },
+          { "name": "Carport 2 Mobil", "dimension": "5.00 × 5.00 m", "area": 25.0, "type": "carport" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-surabaya-pakuwon-city",
+    "slug": "grand-pakuwon-signature-residence-surabaya",
+    "title": "Grand Pakuwon Signature Residence Surabaya",
+    "tagline": "Rumah Mewah Modern Classic di Kota Mandiri Elit Surabaya Barat",
+    "description": "Hunian prestisius di kawasan kota mandiri Grand Pakuwon Surabaya Barat. Mengadopsi fasad Modern Classic elegan dengan gerbang cluster megah, clubhouse berstandar internasional, serta jaminan bebas banjir dengan polder sistem modern. Pilihan investasi properti terbaik di Jawa Timur.",
+    "transactionType": "BUY",
+    "price": 2350000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-rumah",
+    "propertyTypeName": "Rumah Tapak",
+    "specification": {
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "landArea": 135,
+      "buildingArea": 140,
+      "floors": 2,
+      "parking": 2,
+      "certificate": "HGB Murni (Bisa Peningkatan SHM)",
+      "electricity": "4400 VA",
+      "furnishing": "UNFURNISHED",
+      "facing": "NORTH"
+    },
+    "locationId": "loc-surabaya-timur",
+    "projectId": "proj-surabaya-grand-pakuwon",
+    "partnerId": "partner-sinarmas-land",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-cctv",
+      "fac-one-gate",
+      "fac-swimming-pool",
+      "fac-gym",
+      "fac-clubhouse",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2025,
+    "createdAt": "2025-02-08T08:00:00Z",
+    "images": [
+      {
+        "id": "img-sby-1",
+        "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Mewah Grand Pakuwon Surabaya",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-sby-2",
+        "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Ruang Tamu High Ceiling Granit 80x80",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-sby-3",
+        "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Master Bedroom Luas Lantai 2",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-sby-1",
+        "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1 (Living, Dining, Guest Suite)",
+        "floor": 1,
+        "area": 75,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "note": "Lantai 1 dirancang lapang untuk acara kumpul keluarga besar.",
+        "rooms": [
+          { "name": "Grand Living & Dining Room", "dimension": "4.50 × 6.50 m", "area": 29.25, "type": "living" },
+          { "name": "Kamar Tamu / Senior Room", "dimension": "3.50 × 3.80 m", "area": 13.3, "type": "bedroom" },
+          { "name": "Kamar Mandi Lantai 1", "dimension": "1.80 × 2.00 m", "area": 3.6, "type": "bathroom" },
+          { "name": "Dapur Bersih & Dapur Basah", "dimension": "3.00 × 4.00 m", "area": 12.0, "type": "kitchen" },
+          { "name": "Carport 2 Mobil Mewah", "dimension": "5.00 × 5.00 m", "area": 25.0, "type": "carport" }
+        ]
+      },
+      {
+        "id": "fp-sby-2",
+        "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 2 (Master Suite & 2 Bedrooms)",
+        "floor": 2,
+        "area": 65,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "note": "Master bedroom dengan walking wardrobe dan balkon depan.",
+        "rooms": [
+          { "name": "Master Bedroom Suite", "dimension": "4.20 × 5.00 m", "area": 21.0, "type": "bedroom" },
+          { "name": "Master En-Suite Bathroom", "dimension": "2.00 × 2.50 m", "area": 5.0, "type": "bathroom" },
+          { "name": "Kamar Anak 1", "dimension": "3.20 × 3.50 m", "area": 11.2, "type": "bedroom" },
+          { "name": "Kamar Anak 2", "dimension": "3.00 × 3.50 m", "area": 10.5, "type": "bedroom" },
+          { "name": "Kamar Mandi Atas", "dimension": "1.60 × 2.00 m", "area": 3.2, "type": "bathroom" },
+          { "name": "Balkon Depan", "dimension": "1.50 × 4.00 m", "area": 6.0, "type": "balcony" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-medan-citraland-gamacity",
+    "slug": "citraland-gama-city-the-singapore-of-medan",
+    "title": "CitraLand Gama City The Singapore of Medan",
+    "tagline": "Rumah 2 Lantai Mewah di Kota Mandiri Paling Bergengsi di Medan",
+    "description": "Hunian prestisius di megaprojek CitraLand Gama City seluas 211 hektar di Medan. Menawarkan konsep Green, Clean, and Modern Living ala Singapura dengan danau buatan indah, patung Merlion ikonik, jalur pedestrian lebar, serta keamanan terintegrasi CCTV.",
+    "transactionType": "BUY",
+    "price": 2800000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-rumah",
+    "propertyTypeName": "Rumah Tapak",
+    "specification": {
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "landArea": 150,
+      "buildingArea": 165,
+      "floors": 2,
+      "parking": 2,
+      "certificate": "SHM (Sertifikat Hak Milik)",
+      "electricity": "4400 VA",
+      "furnishing": "SEMI_FURNISHED",
+      "facing": "SOUTH"
+    },
+    "locationId": "loc-medan-gamacity",
+    "projectId": "proj-medan-citraland-gama",
+    "partnerId": "partner-ciputra-group",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-cctv",
+      "fac-one-gate",
+      "fac-swimming-pool",
+      "fac-gym",
+      "fac-clubhouse",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2026,
+    "createdAt": "2025-02-14T14:00:00Z",
+    "images": [
+      {
+        "id": "img-medan-1",
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Mewah CitraLand Gama City Medan",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-medan-2",
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Ruang Tamu Mewah Marmer",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-medan-3",
+        "url": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Master Bedroom Suite Medan",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-medan-1",
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1 (Living & Guest Suite)",
+        "floor": 1,
+        "area": 85,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "note": "Dilengkapi void tinggi di atas ruang keluarga dan ruang makan keluarga formal.",
+        "rooms": [
+          { "name": "Formal Living & Dining Room", "dimension": "4.80 × 6.80 m", "area": 32.64, "type": "living" },
+          { "name": "Guest Suite Bedroom", "dimension": "3.80 × 4.00 m", "area": 15.2, "type": "bedroom" },
+          { "name": "Guest Bathroom", "dimension": "1.80 × 2.00 m", "area": 3.6, "type": "bathroom" },
+          { "name": "Dry & Wet Kitchen", "dimension": "3.50 × 4.00 m", "area": 14.0, "type": "kitchen" },
+          { "name": "Carport 2 Mobil", "dimension": "5.00 × 5.50 m", "area": 27.5, "type": "carport" }
+        ]
+      },
+      {
+        "id": "fp-medan-2",
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 2 (Master Suite & 2 Bedrooms)",
+        "floor": 2,
+        "area": 80,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "note": "Master bedroom dengan balkon kaca lebar dan kamar mandi spa.",
+        "rooms": [
+          { "name": "Grand Master Bedroom", "dimension": "4.50 × 5.20 m", "area": 23.4, "type": "bedroom" },
+          { "name": "Master Ensuite Bathroom", "dimension": "2.20 × 3.00 m", "area": 6.6, "type": "bathroom" },
+          { "name": "Kamar Tidur 2", "dimension": "3.50 × 4.00 m", "area": 14.0, "type": "bedroom" },
+          { "name": "Kamar Tidur 3", "dimension": "3.50 × 3.80 m", "area": 13.3, "type": "bedroom" },
+          { "name": "Kamar Mandi 3", "dimension": "1.80 × 2.00 m", "area": 3.6, "type": "bathroom" },
+          { "name": "Balkon Mewah", "dimension": "1.50 × 4.50 m", "area": 6.75, "type": "balcony" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-serpong-ruko-commercial",
+    "slug": "paramount-glaze-shophouse-gading-serpong",
+    "title": "Ruko Komersial 3 Lantai Glaze Gading Serpong",
+    "tagline": "Ruko Siap Usaha & Investasi di Koridor Komersial Paling Ramai Serpong",
+    "description": "Ruko komersial 3 lantai modern dengan traffic kendaraan aktif ribuan per hari di Gading Serpong. Cocok untuk kantor, klinik kecantikan, kafe/resto, atau retail franchise. Dilengkapi area parkir on-street luas tanpa biaya retribusi parkir mandiri.",
+    "transactionType": "BUY",
+    "price": 3100000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-ruko",
+    "propertyTypeName": "Ruko / Commercial Shophouse",
+    "specification": {
+      "bedrooms": 1,
+      "bathrooms": 3,
+      "landArea": 75,
+      "buildingArea": 180,
+      "floors": 3,
+      "parking": 3,
+      "certificate": "HGB Murni (Bisa Naik SHM)",
+      "electricity": "5500 VA",
+      "furnishing": "UNFURNISHED",
+      "facing": "EAST"
+    },
+    "locationId": "loc-tangerang-gadingserpong",
+    "projectId": "proj-gading-serpong-commercial",
+    "partnerId": "partner-sinarmas-land",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-cctv",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": false,
+    "yearBuilt": 2024,
+    "createdAt": "2025-01-28T10:00:00Z",
+    "images": [
+      {
+        "id": "img-ruko-1",
+        "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Ruko 3 Lantai Modern Gading Serpong",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-ruko-2",
+        "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Ruang Usaha / Kantor Terbuka Lantai 1 & 2",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-ruko-1",
+        "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1 (Commercial Showroom & Retail)",
+        "floor": 1,
+        "area": 60,
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "note": "Kaca tempered transparan tinggi untuk display produk usaha.",
+        "rooms": [
+          { "name": "Retail / Office Showroom", "dimension": "4.50 × 12.00 m", "area": 54.0, "type": "living" },
+          { "name": "Restroom Lantai 1", "dimension": "1.50 × 2.00 m", "area": 3.0, "type": "bathroom" },
+          { "name": "Dedicated Front Parking", "dimension": "4.50 × 5.00 m", "area": 22.5, "type": "carport" }
+        ]
+      },
+      {
+        "id": "fp-ruko-2",
+        "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 2 & 3 (Office & Residence)",
+        "floor": 2,
+        "area": 120,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "note": "Lantai 2 untuk ruang kerja staf dan lantai 3 untuk tempat tinggal / executive suite.",
+        "rooms": [
+          { "name": "Lantai 2 Open Office Space", "dimension": "4.50 × 12.00 m", "area": 54.0, "type": "living" },
+          { "name": "Lantai 3 Executive Suite & Rest", "dimension": "4.50 × 8.00 m", "area": 36.0, "type": "bedroom" },
+          { "name": "Restroom Lantai 2 & 3", "dimension": "1.50 × 2.00 m", "area": 3.0, "type": "bathroom" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-bali-canggu-villa",
+    "slug": "luxury-tropical-pool-villa-canggu-berawa-bali",
+    "title": "Luxury Tropical Pool Villa Canggu Berawa Bali",
+    "tagline": "Villa Mewah 300m dari Pantai Berawa & Atlas Beach Club",
+    "description": "Villa peristirahatan tropis mewah di episentrum gaya hidup Canggu Bali. Dilengkapi kolam renang privat, sunken lounge semi terbuka, interior kayu jati daur ulang artistik, dan izin sewa harian (Pondok Wisata/PBG Komersial) dengan proyeksi rental yield ROI 12-16% per tahun.",
+    "transactionType": "BUY",
+    "price": 3950000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-villa",
+    "propertyTypeName": "Villa & Resort Residence",
+    "specification": {
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "landArea": 200,
+      "buildingArea": 180,
+      "floors": 2,
+      "parking": 1,
+      "certificate": "SHM (Freehold Title) / Leasehold 30 Thn",
+      "electricity": "7700 VA",
+      "furnishing": "FULLY_FURNISHED",
+      "facing": "WEST"
+    },
+    "locationId": "loc-bali-canggu",
+    "projectId": "proj-canggu-sanctuary",
+    "partnerId": "partner-bali-paradise",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-cctv",
+      "fac-smart-home",
+      "fac-swimming-pool",
+      "fac-garden",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2024,
+    "createdAt": "2025-01-28T09:00:00Z",
+    "images": [
+      {
+        "id": "img-bali-1",
+        "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Private Pool & Sun Deck Villa Canggu",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-bali-2",
+        "url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Open Air Living Pavilion Canggu Bali",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-bali-3",
+        "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Kamar Tidur Villa Tropis Kanopi Kayu",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      },
+      {
+        "id": "img-bali-4",
+        "url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Outdoor Stone Bathtub & Garden Shower",
+        "category": "BATHROOM",
+        "sortOrder": 4
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-bali-1",
+        "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1 (Sunken Lounge, Pool & Suite 1)",
+        "floor": 1,
+        "area": 100,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "note": "Konsep open-air tropical dengan sunken sofa langsung bersisian dengan permukaan air kolam renang.",
+        "rooms": [
+          { "name": "Sunken Lounge & Dining Pavilion", "dimension": "5.00 × 6.00 m", "area": 30.0, "type": "living" },
+          { "name": "Open-Air Gourmet Island Kitchen", "dimension": "3.50 × 4.00 m", "area": 14.0, "type": "kitchen" },
+          { "name": "Ground Pool Villa Suite", "dimension": "4.50 × 4.50 m", "area": 20.25, "type": "bedroom" },
+          { "name": "Outdoor Stone Garden Bathroom", "dimension": "2.50 × 3.50 m", "area": 8.75, "type": "bathroom" },
+          { "name": "Private Swimming Pool & Sun Deck", "dimension": "3.50 × 8.00 m", "area": 28.0, "type": "garden" },
+          { "name": "Carport & Scooter Bay", "dimension": "3.00 × 4.00 m", "area": 12.0, "type": "carport" }
+        ]
+      },
+      {
+        "id": "fp-bali-2",
+        "url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 2 (Master Sanctuary & Sunset Terrace)",
+        "floor": 2,
+        "area": 80,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "note": "Dua master suites lantai atas dengan pemandangan pohon kelapa dan matahari terbenam.",
+        "rooms": [
+          { "name": "Master Sanctuary Suite", "dimension": "5.00 × 5.50 m", "area": 27.5, "type": "bedroom" },
+          { "name": "Upper Guest Suite 2", "dimension": "4.00 × 4.50 m", "area": 18.0, "type": "bedroom" },
+          { "name": "Dual En-Suite Bathrooms", "dimension": "2.00 × 3.00 m", "area": 6.0, "type": "bathroom" },
+          { "name": "Rooftop Sunset Chill Terrace", "dimension": "3.50 × 5.00 m", "area": 17.5, "type": "balcony" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-bali-ubud-resort-villa",
+    "slug": "rainforest-zen-pool-villa-ubud-bali",
+    "title": "Rainforest Zen Pool Villa Ubud Bali",
+    "tagline": "Sanctuary Privat Tepi Lembah Sungai Ayung dengan Infinity Jungle Pool",
+    "description": "Retreat villa bernuansa zen di perbukitan Sayan Ubud Bali. Menghadirkan pemandangan hutan tropis lembah Ayung yang menakjubkan, kolam renang infinity alami, bale bengong yoga shala, dan manajemen sewa villa bintang 5. Properti idaman untuk investasi kedamaian batin dan pasif income jangka panjang.",
+    "transactionType": "BUY",
+    "price": 4200000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-villa",
+    "propertyTypeName": "Villa & Resort Residence",
+    "specification": {
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "landArea": 280,
+      "buildingArea": 210,
+      "floors": 2,
+      "parking": 2,
+      "certificate": "SHM (Freehold Title)",
+      "electricity": "7700 VA",
+      "furnishing": "FULLY_FURNISHED",
+      "facing": "WEST"
+    },
+    "locationId": "loc-bali-ubud",
+    "projectId": "proj-ubud-rainforest-villas",
+    "partnerId": "partner-bali-paradise",
+    "facilityIds": [
+      "fac-security-24h",
+      "fac-cctv",
+      "fac-swimming-pool",
+      "fac-garden",
+      "fac-carport-canopy"
+    ],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2024,
+    "createdAt": "2025-02-02T10:00:00Z",
+    "images": [
+      {
+        "id": "img-ubud-1",
+        "url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Infinity Pool Menghadap Hutan Lembah Ubud",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-ubud-2",
+        "url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Living Pavilion Kayu Jati Alami Ubud",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-ubud-3",
+        "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Master Bedroom Kanopi Tropis Zen",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-ubud-1",
+        "url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1 (Jungle Pool, Yoga Deck & Suite)",
+        "floor": 1,
+        "area": 120,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "note": "Paviliun terbuka dengan yoga deck dan dek kolam renang infinity alami.",
+        "rooms": [
+          { "name": "Zen Living & Dining Pavilion", "dimension": "6.00 × 7.00 m", "area": 42.0, "type": "living" },
+          { "name": "Ground Jungle Pool Suite", "dimension": "5.00 × 5.00 m", "area": 25.0, "type": "bedroom" },
+          { "name": "Open Garden Stone Bathroom", "dimension": "3.00 × 4.00 m", "area": 12.0, "type": "bathroom" },
+          { "name": "Infinity Jungle Swimming Pool", "dimension": "4.00 × 10.00 m", "area": 40.0, "type": "garden" },
+          { "name": "Yoga Shala & Meditation Deck", "dimension": "3.50 × 4.00 m", "area": 14.0, "type": "garden" },
+          { "name": "Carport & Staff Quarters", "dimension": "4.00 × 5.00 m", "area": 20.0, "type": "carport" }
+        ]
+      },
+      {
+        "id": "fp-ubud-2",
+        "url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 2 (2 Master Sanctuary Suites)",
+        "floor": 2,
+        "area": 90,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "note": "Dua kamar suite lantai atas dengan bathtub tembaga dan balkon view kanopi hutan.",
+        "rooms": [
+          { "name": "Grand Master Rainforest Suite", "dimension": "5.00 × 6.00 m", "area": 30.0, "type": "bedroom" },
+          { "name": "Second Valley Suite", "dimension": "4.50 × 5.00 m", "area": 22.5, "type": "bedroom" },
+          { "name": "Dual Luxury Bathrooms with Tub", "dimension": "2.50 × 3.50 m", "area": 8.75, "type": "bathroom" },
+          { "name": "Sunset Canopy Balcony", "dimension": "2.00 × 6.00 m", "area": 12.0, "type": "balcony" }
+        ]
+      }
+    ]
+  }
+]

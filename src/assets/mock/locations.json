@@ -1,0 +1,242 @@
+[
+  {
+    "id": "loc-padang-kuranji",
+    "address": "Jl. Belimbing Raya No. 42, Kuranji",
+    "district": "Kuranji",
+    "city": "Padang",
+    "province": "Sumatera Barat",
+    "postalCode": "25157",
+    "latitude": -0.9023,
+    "longitude": 100.3912,
+    "nearbyPlaces": [
+      { "name": "Universitas Andalas (UNAND)", "category": "EDUCATION", "distance": "3.5 km" },
+      { "name": "RS Universitas Andalas", "category": "HOSPITAL", "distance": "3.8 km" },
+      { "name": "Bypass Padang Interchange", "category": "TRANSIT", "distance": "1.2 km" }
+    ]
+  },
+  {
+    "id": "loc-padang-barat",
+    "address": "Jl. Samudera No. 18, Padang Barat",
+    "district": "Padang Barat",
+    "city": "Padang",
+    "province": "Sumatera Barat",
+    "postalCode": "25115",
+    "latitude": -0.9572,
+    "longitude": 100.3541,
+    "nearbyPlaces": [
+      { "name": "Pantai Padang (Taplau)", "category": "SHOPPING", "distance": "400 m" },
+      { "name": "Plaza Andalas & Pasar Raya", "category": "SHOPPING", "distance": "1.5 km" },
+      { "name": "Stasiun Kereta Padang", "category": "TRANSIT", "distance": "2.1 km" }
+    ]
+  },
+  {
+    "id": "loc-padang-tabing",
+    "address": "Jl. Prof. Dr. Hamka No. 88, Tabing",
+    "district": "Padang Utara",
+    "city": "Padang",
+    "province": "Sumatera Barat",
+    "postalCode": "25171",
+    "latitude": -0.8841,
+    "longitude": 100.3533,
+    "nearbyPlaces": [
+      { "name": "Universitas Negeri Padang (UNP)", "category": "EDUCATION", "distance": "1.2 km" },
+      { "name": "Stasiun Kereta Api Tabing", "category": "TRANSIT", "distance": "800 m" },
+      { "name": "Bandara Internasional Minangkabau (BIM)", "category": "TRANSIT", "distance": "14 km" }
+    ]
+  },
+  {
+    "id": "loc-padang-lubeg",
+    "address": "Jl. Bypass Km 7, Lubuk Begalung",
+    "district": "Lubuk Begalung",
+    "city": "Padang",
+    "province": "Sumatera Barat",
+    "postalCode": "25221",
+    "latitude": -0.9634,
+    "longitude": 100.4012,
+    "nearbyPlaces": [
+      { "name": "Universitas Putra Indonesia (UPI YPTK)", "category": "EDUCATION", "distance": "1.5 km" },
+      { "name": "Semen Padang Hospital (SPH)", "category": "HOSPITAL", "distance": "2.2 km" },
+      { "name": "Akses Tol Padang-Sicincin", "category": "TRANSIT", "distance": "3.5 km" }
+    ]
+  },
+  {
+    "id": "loc-jaksel-cilandak",
+    "address": "Jl. TB Simatupang No. 88, Cilandak Barat",
+    "district": "Cilandak",
+    "city": "Jakarta Selatan",
+    "province": "DKI Jakarta",
+    "postalCode": "12430",
+    "latitude": -6.2941,
+    "longitude": 106.7994,
+    "nearbyPlaces": [
+      { "name": "Stasiun MRT Fatmawati", "category": "TRANSIT", "distance": "600 m" },
+      { "name": "Cilandak Town Square (CITOS)", "category": "SHOPPING", "distance": "900 m" },
+      { "name": "RS Fatmawati", "category": "HOSPITAL", "distance": "1.1 km" }
+    ]
+  },
+  {
+    "id": "loc-jakbar-puri",
+    "address": "Jl. Lingkar Luar Barat No. 8, Puri Kembangan",
+    "district": "Kembangan",
+    "city": "Jakarta Barat",
+    "province": "DKI Jakarta",
+    "postalCode": "11610",
+    "latitude": -6.1824,
+    "longitude": 106.7329,
+    "nearbyPlaces": [
+      { "name": "Puri Indah Mall & Lippo Mall Puri", "category": "SHOPPING", "distance": "1.2 km" },
+      { "name": "RS Pondok Indah Puri Indah", "category": "HOSPITAL", "distance": "1.5 km" },
+      { "name": "Pintu Tol JORR W2", "category": "TRANSIT", "distance": "800 m" }
+    ]
+  },
+  {
+    "id": "loc-bsd-serpong",
+    "address": "Grand Boulevard BSD City, Pagedangan",
+    "district": "Serpong",
+    "city": "Tangerang Selatan",
+    "province": "Banten",
+    "postalCode": "15339",
+    "latitude": -6.3015,
+    "longitude": 106.6527,
+    "nearbyPlaces": [
+      { "name": "AEON Mall BSD", "category": "SHOPPING", "distance": "800 m" },
+      { "name": "ICE BSD City", "category": "TRANSIT", "distance": "1.2 km" },
+      { "name": "Prasetiya Mulya University", "category": "EDUCATION", "distance": "1.5 km" }
+    ]
+  },
+  {
+    "id": "loc-tangerang-gadingserpong",
+    "address": "Jl. Boulevard Gading Serpong Kav. 28",
+    "district": "Kelapa Dua",
+    "city": "Tangerang",
+    "province": "Banten",
+    "postalCode": "15810",
+    "latitude": -6.2412,
+    "longitude": 106.6289,
+    "nearbyPlaces": [
+      { "name": "Summarecon Mall Serpong (SMS)", "category": "SHOPPING", "distance": "500 m" },
+      { "name": "Universitas Multimedia Nusantara (UMN)", "category": "EDUCATION", "distance": "1.8 km" },
+      { "name": "RS Bethsaida", "category": "HOSPITAL", "distance": "900 m" }
+    ]
+  },
+  {
+    "id": "loc-bekasi-summarecon",
+    "address": "Jl. Bulevar Ahmad Yani No. 10, Summarecon",
+    "district": "Bekasi Utara",
+    "city": "Bekasi",
+    "province": "Jawa Barat",
+    "postalCode": "17142",
+    "latitude": -6.2251,
+    "longitude": 106.9984,
+    "nearbyPlaces": [
+      { "name": "Summarecon Mall Bekasi", "category": "SHOPPING", "distance": "600 m" },
+      { "name": "Stasiun KRL Bekasi", "category": "TRANSIT", "distance": "1.8 km" },
+      { "name": "Sekolah Al Azhar Summarecon", "category": "EDUCATION", "distance": "1.1 km" }
+    ]
+  },
+  {
+    "id": "loc-bogor-sentul",
+    "address": "Jl. Sentul Alaya Boulevard Kav. 15",
+    "district": "Babakan Madang",
+    "city": "Bogor",
+    "province": "Jawa Barat",
+    "postalCode": "16810",
+    "latitude": -6.5712,
+    "longitude": 106.8723,
+    "nearbyPlaces": [
+      { "name": "AEON Mall Sentul City", "category": "SHOPPING", "distance": "1.5 km" },
+      { "name": "IKEA Sentul City", "category": "SHOPPING", "distance": "2.0 km" },
+      { "name": "Pintu Tol Sentul Selatan", "category": "TRANSIT", "distance": "1.8 km" }
+    ]
+  },
+  {
+    "id": "loc-bandung-dago",
+    "address": "Jl. Dago Asri No. 12, Coblong",
+    "district": "Coblong",
+    "city": "Bandung",
+    "province": "Jawa Barat",
+    "postalCode": "40135",
+    "latitude": -6.8778,
+    "longitude": 107.6189,
+    "nearbyPlaces": [
+      { "name": "Institut Teknologi Bandung (ITB)", "category": "EDUCATION", "distance": "1.8 km" },
+      { "name": "RS Santo Borromeus", "category": "HOSPITAL", "distance": "2.2 km" },
+      { "name": "Dago Dream Park", "category": "SHOPPING", "distance": "3.0 km" }
+    ]
+  },
+  {
+    "id": "loc-jogja-kaliurang",
+    "address": "Jl. Kaliurang Km 12.5, Candi Karang",
+    "district": "Ngaglik",
+    "city": "Yogyakarta",
+    "province": "DI Yogyakarta",
+    "postalCode": "55581",
+    "latitude": -7.7012,
+    "longitude": 110.4123,
+    "nearbyPlaces": [
+      { "name": "Universitas Islam Indonesia (UII)", "category": "EDUCATION", "distance": "1.5 km" },
+      { "name": "Universitas Gadjah Mada (UGM)", "category": "EDUCATION", "distance": "7.5 km" },
+      { "name": "RS JIH Yogyakarta", "category": "HOSPITAL", "distance": "6.0 km" }
+    ]
+  },
+  {
+    "id": "loc-surabaya-timur",
+    "address": "Grand Pakuwon Boulevard No. 1",
+    "district": "Tandes",
+    "city": "Surabaya",
+    "province": "Jawa Timur",
+    "postalCode": "60186",
+    "latitude": -7.2612,
+    "longitude": 112.6712,
+    "nearbyPlaces": [
+      { "name": "Pakuwon Mall & PTC", "category": "SHOPPING", "distance": "4.5 km" },
+      { "name": "Pakuwon City Food Junction", "category": "SHOPPING", "distance": "800 m" },
+      { "name": "National Hospital Surabaya", "category": "HOSPITAL", "distance": "5.2 km" }
+    ]
+  },
+  {
+    "id": "loc-medan-gamacity",
+    "address": "Jl. Boulevard Timur No. 88",
+    "district": "Percut Sei Tuan",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "postalCode": "20371",
+    "latitude": 3.6124,
+    "longitude": 98.7123,
+    "nearbyPlaces": [
+      { "name": "Universitas Negeri Medan (UNIMED)", "category": "EDUCATION", "distance": "1.5 km" },
+      { "name": "Pintu Tol Bandar Selamat", "category": "TRANSIT", "distance": "1.2 km" },
+      { "name": "RS Columbia Asia Medan", "category": "HOSPITAL", "distance": "6.5 km" }
+    ]
+  },
+  {
+    "id": "loc-bali-canggu",
+    "address": "Jl. Pantai Berawa No. 77, Tibubeneng",
+    "district": "Kuta Utara",
+    "city": "Bali",
+    "province": "Bali",
+    "postalCode": "80361",
+    "latitude": -8.6631,
+    "longitude": 115.1412,
+    "nearbyPlaces": [
+      { "name": "Berawa Beach & Atlas Beach Club", "category": "SHOPPING", "distance": "500 m" },
+      { "name": "Finns Recreation Club", "category": "TRANSIT", "distance": "700 m" },
+      { "name": "Canggu Community School", "category": "EDUCATION", "distance": "1.6 km" }
+    ]
+  },
+  {
+    "id": "loc-bali-ubud",
+    "address": "Jl. Raya Sayan No. 45, Sayan",
+    "district": "Ubud",
+    "city": "Bali",
+    "province": "Bali",
+    "postalCode": "80571",
+    "latitude": -8.5123,
+    "longitude": 115.2412,
+    "nearbyPlaces": [
+      { "name": "Ubud Monkey Forest", "category": "SHOPPING", "distance": "3.5 km" },
+      { "name": "Four Seasons Resort Sayan", "category": "SHOPPING", "distance": "800 m" },
+      { "name": "Pusat Seni & Kuliner Ubud", "category": "SHOPPING", "distance": "2.8 km" }
+    ]
+  }
+]

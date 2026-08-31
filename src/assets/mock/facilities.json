@@ -1,0 +1,12 @@
+[
+  { "id": "fac-security-24h", "name": "Keamanan 24 Jam & CCTV", "icon": "ShieldCheck", "category": "SECURITY" },
+  { "id": "fac-one-gate", "name": "One Gate System with RFID", "icon": "KeyRound", "category": "SECURITY" },
+  { "id": "fac-swimming-pool", "name": "Kolam Renang Privat / Cluster", "icon": "Waves", "category": "WELLNESS" },
+  { "id": "fac-gym", "name": "Clubhouse & Fitness Center", "icon": "Dumbbell", "category": "WELLNESS" },
+  { "id": "fac-smart-home", "name": "Smart Home & Smart Door Lock", "icon": "Cpu", "category": "CONVENIENCE" },
+  { "id": "fac-solar-panel", "name": "Eco Solar Panel & EV Charger", "icon": "Zap", "category": "CONVENIENCE" },
+  { "id": "fac-garden", "name": "Taman Tematik & Jogging Track", "icon": "Trees", "category": "LIFESTYLE" },
+  { "id": "fac-playground", "name": "Area Bermain Anak", "icon": "Smile", "category": "LIFESTYLE" },
+  { "id": "fac-carport-canopy", "name": "Carport 2 Mobil & Kanopi", "icon": "Car", "category": "CONVENIENCE" },
+  { "id": "fac-high-speed-wifi", "name": "Fiber Optic High-Speed Internet", "icon": "Wifi", "category": "CONVENIENCE" }
+]

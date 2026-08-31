@@ -1,0 +1,6 @@
+[
+  { "id": "type-rumah", "name": "Rumah Tapak", "slug": "house", "description": "Rumah tinggal tapak landed house dengan halaman dan carport mandiri." },
+  { "id": "type-apartemen", "name": "Apartemen & Kondominium", "slug": "apartment", "description": "Hunian vertikal modern dengan fasilitas komprehensif dan akses transportasi utama." },
+  { "id": "type-villa", "name": "Villa & Resort Residence", "slug": "villa", "description": "Properti premium peristirahatan dengan nuansa asri, pemandangan, dan kolam renang privat." },
+  { "id": "type-ruko", "name": "Ruko / Commercial Shophouse", "slug": "shophouse", "description": "Ruang usaha dan tempat tinggal strategis di kawasan komersial aktif." }
+]

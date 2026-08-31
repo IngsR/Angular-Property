@@ -1,0 +1,38 @@
+[
+  {
+    "id": "partner-ranah-minang",
+    "name": "PT Ranah Minang Propertindo",
+    "logo": "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&w=160&q=80",
+    "description": "Pengembang terkemuka di Sumatera Barat dengan standar konstruksi tahan gempa dan arsitektur tropis modern.",
+    "verified": true,
+    "phone": "+62 751 778900",
+    "email": "contact@ranahminangproperti.co.id"
+  },
+  {
+    "id": "partner-sinarmas-land",
+    "name": "Sinarmas Land Developer",
+    "logo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=160&q=80",
+    "description": "Salah satu pengembang kota mandiri terbesar dan terpercaya di Asia Tenggara dengan inovasi green smart city.",
+    "verified": true,
+    "phone": "+62 21 50368888",
+    "email": "info@sinarmasland.com"
+  },
+  {
+    "id": "partner-ciputra-group",
+    "name": "Ciputra Group Heritage",
+    "logo": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=160&q=80",
+    "description": "Pelopor hunian modern berkonsep EcoCulture dan integrasi fasilitas pendidikan, kesehatan, serta gaya hidup.",
+    "verified": true,
+    "phone": "+62 21 29888888",
+    "email": "inquiry@ciputradevelopment.com"
+  },
+  {
+    "id": "partner-bali-paradise",
+    "name": "Bali Sanctuary Living",
+    "logo": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=160&q=80",
+    "description": "Spesialis boutique luxury villa dan resort residences dengan ROI tinggi dan standar hospitality bintang lima.",
+    "verified": true,
+    "phone": "+62 361 848999",
+    "email": "concierge@balisanctuary.id"
+  }
+]
