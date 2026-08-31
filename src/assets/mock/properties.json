@@ -1521,5 +1521,417 @@
         ]
       }
     ]
+  },
+  {
+    "id": "prop-bandung-dago-villa",
+    "slug": "villa-dago-asri-bandung-mountain-view",
+    "title": "Villa Dago Asri — Mountain View Residence Coblong",
+    "tagline": "Hunian Eksklusif Bernuansa Resort di Ketinggian 740 mdpl",
+    "description": "Villa modern tropis bertingkat dua dengan panorama penuh Gunung Manglayang dan Gunung Burangrang. Dibangun menggunakan material alam premium: dinding batu alam Palimanan, lantai marmer travertine, dan plafon kayu jati reclaimed. Kawasan beriklim sejuk 18–24°C sepanjang tahun, dekat kampus ITB dan akses tol Pasteur.",
+    "transactionType": "BUY",
+    "price": 3850000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-villa",
+    "propertyTypeName": "Villa",
+    "specification": {
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "landArea": 420,
+      "buildingArea": 280,
+      "floors": 2,
+      "parking": 2,
+      "certificate": "SHM (Sertifikat Hak Milik)",
+      "electricity": "13200 VA",
+      "furnishing": "FULL_FURNISHED",
+      "facing": "NORTH"
+    },
+    "locationId": "loc-bandung-dago",
+    "projectId": "proj-sentul-alaya",
+    "partnerId": "partner-ciputra-group",
+    "facilityIds": ["fac-security-24h", "fac-one-gate", "fac-garden", "fac-swimming-pool", "fac-cctv"],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2023,
+    "createdAt": "2025-03-10T08:00:00Z",
+    "images": [
+      {
+        "id": "img-bdg-v1",
+        "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Villa Dago Asri Mountain View",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-bdg-v2",
+        "url": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Kolam Renang Infinity dengan View Pegunungan",
+        "category": "EXTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-bdg-v3",
+        "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Ruang Keluarga Open Space Premium",
+        "category": "INTERIOR",
+        "sortOrder": 3
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-bdg-v1",
+        "url": "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1",
+        "floor": 1,
+        "area": 160,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "note": "Ruang publik luas dengan dapur island dan ruang tamu terbuka ke taman",
+        "rooms": [
+          { "name": "Ruang Tamu & Keluarga", "dimension": "6.00 × 8.00 m", "area": 48.0, "type": "living" },
+          { "name": "Dapur Island & Dining", "dimension": "4.00 × 5.00 m", "area": 20.0, "type": "kitchen" },
+          { "name": "Guest Bedroom", "dimension": "3.50 × 4.00 m", "area": 14.0, "type": "bedroom" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-jogja-kaliurang-rumah",
+    "slug": "rumah-modern-kaliurang-yogyakarta",
+    "title": "Rumah Modern Tropical Kaliurang Km 12 Yogyakarta",
+    "tagline": "Hunian Sejuk Lereng Merapi, 5 Menit dari Kampus UII",
+    "description": "Rumah tapak modern 2 lantai di kawasan sejuk Kaliurang dengan konsep open living yang menyatu dengan taman tropis privat. Dirancang dengan arsitek lokal Jogja, menggabungkan elemen budaya Jawa (gebyok kayu) dan desain kontemporer minimalis. Listrik tegangan tinggi, water heater solar, dan sistem rainwater harvesting.",
+    "transactionType": "BUY",
+    "price": 1875000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-rumah",
+    "propertyTypeName": "Rumah Tapak",
+    "specification": {
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "landArea": 240,
+      "buildingArea": 165,
+      "floors": 2,
+      "parking": 2,
+      "certificate": "SHM (Sertifikat Hak Milik)",
+      "electricity": "3500 VA",
+      "furnishing": "SEMI_FURNISHED",
+      "facing": "EAST"
+    },
+    "locationId": "loc-jogja-kaliurang",
+    "projectId": "proj-kuranji-garden",
+    "partnerId": "partner-ranah-minang",
+    "facilityIds": ["fac-security-24h", "fac-garden", "fac-carport-canopy"],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2024,
+    "createdAt": "2025-04-05T08:00:00Z",
+    "images": [
+      {
+        "id": "img-jog-r1",
+        "url": "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Rumah Modern Kaliurang",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-jog-r2",
+        "url": "https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Ruang Tamu Terbuka dengan Taman",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-jog-r1",
+        "url": "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1",
+        "floor": 1,
+        "area": 90,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "note": "Living area open plan dengan akses langsung ke taman belakang",
+        "rooms": [
+          { "name": "Ruang Tamu & Keluarga", "dimension": "5.00 × 6.00 m", "area": 30.0, "type": "living" },
+          { "name": "Dapur & Ruang Makan", "dimension": "3.50 × 4.50 m", "area": 15.75, "type": "kitchen" },
+          { "name": "Kamar Tidur Lantai 1", "dimension": "3.50 × 4.00 m", "area": 14.0, "type": "bedroom" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-sby-pakuwon-apartemen",
+    "slug": "apartemen-pakuwon-city-surabaya-premium",
+    "title": "Apartemen Sky Residence Pakuwon City Surabaya",
+    "tagline": "Unit Sudut Lantai Tinggi dengan Pemandangan Kota & Selat Madura",
+    "description": "Apartemen high-rise premium di dalam kawasan kota mandiri Pakuwon City Surabaya. Unit sudut (corner unit) lantai 28 dengan 2 sisi pemandangan: panorama cityscape Surabaya Barat dan Selat Madura. Fasilitas lengkap setara bintang 5: infinity pool, sky lounge, co-working space, gym premium, dan shuttle bus ke pusat kota.",
+    "transactionType": "BUY",
+    "price": 1450000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-apartemen",
+    "propertyTypeName": "Apartemen",
+    "specification": {
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "landArea": 0,
+      "buildingArea": 72,
+      "floors": 1,
+      "parking": 1,
+      "certificate": "PPJB (Perjanjian Pengikatan Jual Beli)",
+      "electricity": "2200 VA",
+      "furnishing": "FULL_FURNISHED",
+      "facing": "EAST"
+    },
+    "locationId": "loc-surabaya-timur",
+    "projectId": "proj-bsd-grand-freja",
+    "partnerId": "partner-sinarmas-land",
+    "facilityIds": ["fac-security-24h", "fac-swimming-pool", "fac-gym", "fac-cctv", "fac-one-gate"],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2024,
+    "createdAt": "2025-05-20T08:00:00Z",
+    "images": [
+      {
+        "id": "img-sby-a1",
+        "url": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Sky Residence Pakuwon City Tower Exterior",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-sby-a2",
+        "url": "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Interior Unit Apartemen Premium Furnished",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-sby-a3",
+        "url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Infinity Pool Lantai 32 Sky Level",
+        "category": "EXTERIOR",
+        "sortOrder": 3
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-sby-a1",
+        "url": "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Unit 2BR Corner",
+        "floor": 28,
+        "area": 72,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "note": "Corner unit dengan dua sisi kaca floor-to-ceiling, panorama ganda kota dan laut",
+        "rooms": [
+          { "name": "Ruang Tamu & Dining", "dimension": "4.50 × 5.00 m", "area": 22.5, "type": "living" },
+          { "name": "Master Bedroom", "dimension": "3.50 × 4.50 m", "area": 15.75, "type": "bedroom" },
+          { "name": "Bedroom 2", "dimension": "3.00 × 3.50 m", "area": 10.5, "type": "bedroom" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-bekasi-summarecon-rumah",
+    "slug": "cluster-neo-summarecon-bekasi-timur",
+    "title": "Cluster Neo Summarecon Bekasi — Rumah 2 Lantai Ready Stock",
+    "tagline": "Hunian Investasi Terbaik di Kota Mandiri Summarecon Bekasi",
+    "description": "Rumah tapak 2 lantai tipe 60/120 dalam cluster tertutup premium di kawasan kota mandiri Summarecon Bekasi. Desain fasad modern scandinavia dengan atap pelana, jendela besar, dan taman depan privat. Kawasan dengan akses jalan boulevard lebar, sistem drainase bawah tanah anti-banjir, dan CCTV 24 jam.",
+    "transactionType": "BUY",
+    "price": 1290000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-rumah",
+    "propertyTypeName": "Rumah Tapak",
+    "specification": {
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "landArea": 120,
+      "buildingArea": 60,
+      "floors": 2,
+      "parking": 2,
+      "certificate": "SHM (Sertifikat Hak Milik)",
+      "electricity": "2200 VA",
+      "furnishing": "UNFURNISHED",
+      "facing": "WEST"
+    },
+    "locationId": "loc-bekasi-summarecon",
+    "projectId": "proj-tabing-asri",
+    "partnerId": "partner-sinarmas-land",
+    "facilityIds": ["fac-security-24h", "fac-one-gate", "fac-playground", "fac-cctv"],
+    "availability": "AVAILABLE",
+    "featured": false,
+    "yearBuilt": 2025,
+    "createdAt": "2025-06-01T08:00:00Z",
+    "images": [
+      {
+        "id": "img-bks-r1",
+        "url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fasad Modern Scandinavia Cluster Neo",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-bks-r2",
+        "url": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Ruang Tamu Konsep Open Plan Lantai 1",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-bks-r1",
+        "url": "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Lantai 1",
+        "floor": 1,
+        "area": 36,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "note": "Open living concept dengan taman depan 3x4m",
+        "rooms": [
+          { "name": "Ruang Tamu & Keluarga", "dimension": "4.00 × 5.00 m", "area": 20.0, "type": "living" },
+          { "name": "Dapur & Ruang Makan", "dimension": "3.00 × 4.00 m", "area": 12.0, "type": "kitchen" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-medan-gamacity-apartemen",
+    "slug": "apartemen-grand-gamacity-medan",
+    "title": "Apartemen Grand Gama City Medan — Studio & 1BR Smart Unit",
+    "tagline": "Investasi Properti Cerdas di Kota Tumbuh Tercepat Sumatera Utara",
+    "description": "Apartemen studio dan 1 bedroom berkonsep smart living di kawasan kota mandiri Gama City Medan yang sedang berkembang pesat. Dilengkapi sistem home automation (smart lock, AC terprogram, sensor cahaya otomatis), co-living area, dan shuttle bus ke pusat kota Medan. Yield sewa estimasi 7–9% per tahun.",
+    "transactionType": "BUY",
+    "price": 485000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-apartemen",
+    "propertyTypeName": "Apartemen",
+    "specification": {
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "landArea": 0,
+      "buildingArea": 36,
+      "floors": 1,
+      "parking": 1,
+      "certificate": "PPJB (Perjanjian Pengikatan Jual Beli)",
+      "electricity": "1300 VA",
+      "furnishing": "FULL_FURNISHED",
+      "facing": "SOUTH"
+    },
+    "locationId": "loc-medan-gamacity",
+    "projectId": "proj-tabing-asri",
+    "partnerId": "partner-ranah-minang",
+    "facilityIds": ["fac-security-24h", "fac-gym", "fac-cctv", "fac-one-gate"],
+    "availability": "AVAILABLE",
+    "featured": false,
+    "yearBuilt": 2025,
+    "createdAt": "2025-07-12T08:00:00Z",
+    "images": [
+      {
+        "id": "img-mdn-a1",
+        "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Grand Gama City Tower A Exterior",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-mdn-a2",
+        "url": "https://images.unsplash.com/photo-1505873242700-f289a29e1724?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Studio Unit Smart Furnished Interior",
+        "category": "INTERIOR",
+        "sortOrder": 2
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-mdn-a1",
+        "url": "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Unit 1BR",
+        "floor": 12,
+        "area": 36,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "note": "Smart unit dengan layout efisien dan balkon 2m²",
+        "rooms": [
+          { "name": "Studio Living & Sleeping Area", "dimension": "4.50 × 5.50 m", "area": 24.75, "type": "living" },
+          { "name": "Compact Kitchen", "dimension": "1.80 × 2.50 m", "area": 4.5, "type": "kitchen" },
+          { "name": "Kamar Mandi", "dimension": "1.50 × 2.00 m", "area": 3.0, "type": "bathroom" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prop-bali-canggu-villa",
+    "slug": "villa-canggu-berawa-bali-private-pool",
+    "title": "Villa Canggu Berawa — Tropical Private Pool Villa",
+    "tagline": "850m ke Pantai Berawa, ROI Sewa 12% Per Tahun",
+    "description": "Villa tropis privat 3 kamar tidur dengan private pool infinity 10 meter dan taman bambu yang memisahkan dari kebisingan. Dirancang oleh arsitek Bali ternama dengan material lokal: batu paras jogja, kayu kelapa daur ulang, dan atap alang-alang. Jarak 850m ke Pantai Berawa dan 700m ke Finns Recreation Club. Potensi sewa jangka pendek (Airbnb/VRBO) premium.",
+    "transactionType": "BUY",
+    "price": 6800000000,
+    "currency": "IDR",
+    "propertyTypeId": "type-villa",
+    "propertyTypeName": "Villa",
+    "specification": {
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "landArea": 380,
+      "buildingArea": 220,
+      "floors": 1,
+      "parking": 2,
+      "certificate": "SHM (Sertifikat Hak Milik)",
+      "electricity": "13200 VA",
+      "furnishing": "FULL_FURNISHED",
+      "facing": "SOUTH"
+    },
+    "locationId": "loc-bali-canggu",
+    "projectId": "proj-bali-forest-villa",
+    "partnerId": "partner-bali-paradise",
+    "facilityIds": ["fac-security-24h", "fac-swimming-pool", "fac-garden", "fac-cctv"],
+    "availability": "AVAILABLE",
+    "featured": true,
+    "yearBuilt": 2023,
+    "createdAt": "2025-08-01T08:00:00Z",
+    "images": [
+      {
+        "id": "img-bali-cg1",
+        "url": "https://images.unsplash.com/photo-1573552375547-b3a0e53c7c31?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Villa Canggu Private Pool Tropical View",
+        "category": "EXTERIOR",
+        "sortOrder": 1
+      },
+      {
+        "id": "img-bali-cg2",
+        "url": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Kolam Renang Infinity Villa Canggu",
+        "category": "EXTERIOR",
+        "sortOrder": 2
+      },
+      {
+        "id": "img-bali-cg3",
+        "url": "https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Kamar Master Suite dengan Bathtub Outdoor",
+        "category": "BEDROOM",
+        "sortOrder": 3
+      }
+    ],
+    "floorPlans": [
+      {
+        "id": "fp-bali-cg1",
+        "url": "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1200&q=80",
+        "name": "Denah Villa Single Level",
+        "floor": 1,
+        "area": 220,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "note": "Open bale living dengan kolam renang privat 10x3m dan taman bambu",
+        "rooms": [
+          { "name": "Open Bale Living & Dining", "dimension": "7.00 × 8.00 m", "area": 56.0, "type": "living" },
+          { "name": "Master Suite dengan Bathtub Outdoor", "dimension": "5.00 × 6.00 m", "area": 30.0, "type": "bedroom" },
+          { "name": "Bedroom 2 dengan En-suite", "dimension": "4.00 × 5.00 m", "area": 20.0, "type": "bedroom" },
+          { "name": "Bedroom 3 Garden View", "dimension": "3.50 × 4.50 m", "area": 15.75, "type": "bedroom" },
+          { "name": "Private Pool 10x3m", "dimension": "10.00 × 3.00 m", "area": 30.0, "type": "balcony" }
+        ]
+      }
+    ]
   }
 ]

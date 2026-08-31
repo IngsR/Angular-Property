@@ -23,7 +23,7 @@ import { NotificationService } from '../../../core/services/notification.service
         <div class="max-w-5xl mx-auto text-center relative z-10 space-y-6">
           <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/15 text-blue-300 text-xs font-bold border border-blue-400/25 shadow-xs">
             <svg class="w-3.5 h-3.5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
-            <span>Platform Keputusan Properti #1 di Indonesia</span>
+            <span>HouseING Property — Solusi Keputusan Properti Terpercaya</span>
           </div>
           <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight sm:leading-none">
             Temukan Rumah Impian. <br />
@@ -81,17 +81,41 @@ import { NotificationService } from '../../../core/services/notification.service
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           @for (tip of buyingTips; track tip.step) {
-            <div [class]="'bg-white rounded-2xl border border-slate-200/90 p-6 shadow-xs space-y-4 hover:border-' + tip.color + '-400 hover:shadow-md transition-all group flex flex-col justify-between'">
+            <div [class]="'bg-white rounded-2xl border border-slate-200/90 p-6 shadow-sm space-y-4 hover:border-' + tip.color + '-300 hover:shadow-md transition-all group flex flex-col justify-between'">
               <div class="space-y-3">
-                <div [class]="'w-12 h-12 rounded-xl bg-' + tip.color + '-50 text-' + tip.color + '-600 flex items-center justify-center font-black group-hover:bg-' + tip.color + '-600 group-hover:text-white transition-colors'" [innerHTML]="tip.icon"></div>
+                <!-- Icon Box -->
+                <div [class]="'w-12 h-12 rounded-xl flex items-center justify-center transition-colors bg-' + tip.color + '-50 text-' + tip.color + '-600 group-hover:bg-' + tip.color + '-600 group-hover:text-white'">
+                  @switch (tip.iconKey) {
+                    @case ('shield') {
+                      <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                      </svg>
+                    }
+                    @case ('calculator') {
+                      <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                      </svg>
+                    }
+                    @case ('blueprint') {
+                      <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                      </svg>
+                    }
+                    @case ('map') {
+                      <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+                      </svg>
+                    }
+                  }
+                </div>
                 <div class="space-y-1.5">
-                  <span [class]="'text-[11px] font-bold text-' + tip.color + '-600 uppercase tracking-wider'">{{ tip.step }}</span>
+                  <span [class]="'text-[11px] font-bold uppercase tracking-wider text-' + tip.color + '-600'">{{ tip.step }}</span>
                   <h3 class="text-base font-bold text-slate-900 leading-snug">{{ tip.title }}</h3>
-                  <p class="text-xs text-slate-600 leading-relaxed" [innerHTML]="tip.description"></p>
+                  <p class="text-xs text-slate-600 leading-relaxed">{{ tip.description }}</p>
                 </div>
               </div>
-              <div [class]="'pt-3 border-t border-slate-100 flex items-center gap-1 text-[11px] font-bold text-' + tip.color + '-700'">
-                <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <div [class]="'pt-3 border-t border-slate-100 flex items-center gap-1.5 text-[11px] font-bold text-' + tip.color + '-700'">
+                <svg class="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 <span>{{ tip.footer }}</span>
               </div>
             </div>
@@ -173,17 +197,45 @@ export class HomePageComponent implements OnInit {
   searchType = 'ALL';
 
   buyingTips = [
-    { step: 'Langkah 1 · Legalitas', title: 'Cek Keaslian Sertifikat & Izin Bangunan (PBG)', description: 'Pastikan status tanah berstatus <strong>Sertifikat Hak Milik (SHM)</strong> atau HGB murni, serta memiliki Persetujuan Bangunan Gedung (PBG/IMB) resmi dan bebas dari sengketa perbankan.', footer: 'Verifikasi BPN & Notaris', color: 'blue', icon: '<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>' },
-    { step: 'Langkah 2 · Finansial', title: 'Terapkan Rasio Cicilan Maksimal 30% Gaji', description: 'Idealnya total angsuran KPR tidak melebihi <strong>30% - 35%</strong> dari penghasilan gabungan bulanan. Siapkan juga dana darurat 3-6 bulan dan biaya akad jual beli (BPHTB & Notaris).', footer: 'Gunakan Simulasi KPR All-in', color: 'emerald', icon: '<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>' },
-    { step: 'Langkah 3 · Arsitektur', title: 'Analisis Denah, Pencahayaan & Ventilasi Alami', description: 'Periksa tata letak ruang per lantai, arah bukaan jendela terhadap matahari, sirkulasi silang, serta opsi pengembangan struktur bangunan di masa depan.', footer: 'Cek Blueprint & Ketinggian Plafon', color: 'indigo', icon: '<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>' },
-    { step: 'Langkah 4 · Lapangan', title: 'Survei Fisik Lingkungan & Bandingkan Opsi', description: 'Lakukan survei saat musim hujan untuk memastikan kawasan bebas banjir, uji kualitas air tanah, periksa aksesibilitas jalan utama, dan komparasikan 2-4 unit pilihan secara objektif.', footer: 'Manfaatkan Fitur Komparasi', color: 'purple', icon: '<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>' },
+    {
+      step: 'Langkah 1 · Legalitas',
+      title: 'Cek Keaslian Sertifikat & Izin Bangunan (PBG)',
+      description: 'Pastikan status tanah berstatus Sertifikat Hak Milik (SHM) atau HGB murni, serta memiliki Persetujuan Bangunan Gedung (PBG/IMB) resmi dan bebas dari sengketa perbankan.',
+      footer: 'Verifikasi BPN & Notaris',
+      color: 'blue',
+      iconKey: 'shield'
+    },
+    {
+      step: 'Langkah 2 · Finansial',
+      title: 'Terapkan Rasio Cicilan Maksimal 30% Gaji',
+      description: 'Idealnya total angsuran KPR tidak melebihi 30%–35% dari penghasilan gabungan bulanan. Siapkan juga dana darurat 3–6 bulan dan biaya akad jual beli (BPHTB & Notaris).',
+      footer: 'Gunakan Simulasi KPR All-in',
+      color: 'emerald',
+      iconKey: 'calculator'
+    },
+    {
+      step: 'Langkah 3 · Arsitektur',
+      title: 'Analisis Denah, Pencahayaan & Ventilasi Alami',
+      description: 'Periksa tata letak ruang per lantai, arah bukaan jendela terhadap matahari, sirkulasi silang, serta opsi pengembangan struktur bangunan di masa depan.',
+      footer: 'Cek Blueprint & Ketinggian Plafon',
+      color: 'indigo',
+      iconKey: 'blueprint'
+    },
+    {
+      step: 'Langkah 4 · Lapangan',
+      title: 'Survei Fisik Lingkungan & Bandingkan Opsi',
+      description: 'Lakukan survei saat musim hujan untuk memastikan kawasan bebas banjir, uji kualitas air tanah, periksa aksesibilitas jalan utama, dan komparasikan 2–4 unit pilihan secara objektif.',
+      footer: 'Manfaatkan Fitur Komparasi',
+      color: 'purple',
+      iconKey: 'map'
+    },
   ];
 
   developers = [
     { name: 'PT Ranah Minang Propertindo', desc: 'Spesialis Hunian Anti-Gempa Sumatera Barat', logo: 'https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&w=160&q=80' },
     { name: 'Sinarmas Land Developer', desc: 'Kota Mandiri BSD City & Urban Living', logo: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=160&q=80' },
-    { name: 'Ciputra Group Heritage', desc: 'EcoCulture & Prestisius Lifestyle', logo: 'https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=160&q=80' },
-    { name: 'Bali Sanctuary Living', desc: 'Luxury Resort & High Yield Villas', logo: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=160&q=80' },
+    { name: 'Ciputra Group Heritage', desc: 'EcoCulture & Prestisius Lifestyle', logo: 'https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=160&q=80' },
+    { name: 'Bali Sanctuary Living', desc: 'Luxury Resort & High Yield Villas', logo: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=160&q=80' },
   ];
 
   async ngOnInit(): Promise<void> {

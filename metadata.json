@@ -1,6 +1,0 @@
-{
-  "name": "Property Discovery & Decision Platform",
-  "description": "Platform pencarian, evaluasi mendalam, perbandingan properti komprehensif, dan simulator KPR.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

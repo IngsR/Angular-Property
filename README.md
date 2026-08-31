@@ -1,11 +1,11 @@
-# 🏡 PropertiDecide — Platform Pencarian & Keputusan Properti
+# 🏡 HouseING Property — Platform Pencarian & Keputusan Properti
 
 [![Angular](https://img.shields.io/badge/Angular-Standalone_Architecture-DD0031?logo=angular&logoColor=white)](https://angular.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-100%25_Pure-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4_Modern_Design-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Bun](https://img.shields.io/badge/Bun-Fast_Package_Manager-FBF0DF?logo=bun&logoColor=black)](https://bun.sh/)
 
-> **PropertiDecide** adalah aplikasi web modern berbasis **Angular Standalone Components (Full TypeScript)** yang dirancang untuk membantu calon pembeli rumah mengambil keputusan pembelian dan finansial properti secara objektif, transparan, dan terverifikasi.
+> **HouseING Property** adalah aplikasi web modern berbasis **Angular Standalone Components (Full TypeScript)** yang dirancang untuk membantu calon pembeli rumah mengambil keputusan pembelian dan finansial properti secara objektif, transparan, dan terverifikasi.
 
 ---
 

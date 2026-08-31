@@ -15,7 +15,7 @@ import { Router } from '@angular/router';
               <div class="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white shadow-sm">
                 <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
               </div>
-              <span class="text-lg font-bold text-white tracking-tight">PropertiDecide</span>
+              <span class="text-lg font-bold text-white tracking-tight">HouseING Property</span>
             </div>
             <p class="text-sm text-slate-400 max-w-sm leading-relaxed">Platform discovery, evaluasi spesifikasi mendalam, dan simulasi finansial keputusan kepemilikan properti di Indonesia secara transparan, akurat, dan terverifikasi.</p>
             <div class="flex items-center gap-2 text-xs text-slate-400 bg-slate-800/80 px-3.5 py-2 rounded-full border border-slate-700/60 w-fit">
@@ -60,7 +60,7 @@ import { Router } from '@angular/router';
               </li>
               <li class="flex items-center gap-2.5">
                 <svg class="w-4 h-4 text-blue-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-                <span>inquiry@propertidecide.id</span>
+                <span>inquiry@houseingproperty.id</span>
               </li>
             </ul>
           </div>
@@ -68,7 +68,7 @@ import { Router } from '@angular/router';
 
         <!-- Bottom Bar -->
         <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>&copy; {{ currentYear }} PropertiDecide Platform. Seluruh Hak Cipta Dilindungi.</p>
+          <p>&copy; {{ currentYear }} HouseING Property Platform. Seluruh Hak Cipta Dilindungi.</p>
           <div class="flex items-center gap-4">
             <span class="flex items-center gap-1.5">
               <svg class="w-3.5 h-3.5 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>

@@ -7,7 +7,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "property-decide": {
+    "houseing-property": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": {
@@ -82,10 +82,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "property-decide:build:production"
+              "buildTarget": "houseing-property:build:production"
             },
             "development": {
-              "buildTarget": "property-decide:build:development"
+              "buildTarget": "houseing-property:build:development"
             }
           },
           "defaultConfiguration": "development"
