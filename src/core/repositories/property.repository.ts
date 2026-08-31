@@ -29,13 +29,19 @@ export interface IPropertyRepository {
   getFacilities(): Promise<Facility[]>;
 }
 
+const getArray = (data: any): any[] => {
+  if (Array.isArray(data)) return data;
+  if (data && Array.isArray(data.default)) return data.default;
+  return [];
+};
+
 export class MockPropertyRepository implements IPropertyRepository {
   private hydratedProperties: Property[] = [];
   private locationsMap = new Map<string, Location>();
   private partnersMap = new Map<string, Partner>();
   private projectsMap = new Map<string, Project>();
   private facilitiesMap = new Map<string, Facility>();
-  private propertyTypes: PropertyType[] = rawPropertyTypes as PropertyType[];
+  private propertyTypes: PropertyType[] = getArray(rawPropertyTypes) as PropertyType[];
 
   constructor() {
     this.initMaps();
@@ -43,14 +49,14 @@ export class MockPropertyRepository implements IPropertyRepository {
   }
 
   private initMaps() {
-    (rawLocations as Location[]).forEach((loc) => this.locationsMap.set(loc.id, loc));
-    (rawPartners as Partner[]).forEach((p) => this.partnersMap.set(p.id, p));
-    (rawProjects as Project[]).forEach((proj) => this.projectsMap.set(proj.id, proj));
-    (rawFacilities as Facility[]).forEach((fac) => this.facilitiesMap.set(fac.id, fac));
+    (getArray(rawLocations) as Location[]).forEach((loc) => this.locationsMap.set(loc.id, loc));
+    (getArray(rawPartners) as Partner[]).forEach((p) => this.partnersMap.set(p.id, p));
+    (getArray(rawProjects) as Project[]).forEach((proj) => this.projectsMap.set(proj.id, proj));
+    (getArray(rawFacilities) as Facility[]).forEach((fac) => this.facilitiesMap.set(fac.id, fac));
   }
 
   private hydrate() {
-    this.hydratedProperties = (rawProperties as any[]).map((raw) => {
+    this.hydratedProperties = (getArray(rawProperties) as any[]).map((raw) => {
       const location = this.locationsMap.get(raw.locationId) || {
         id: raw.locationId,
         address: 'Alamat tidak terdaftar',

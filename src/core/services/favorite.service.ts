@@ -1,95 +1,67 @@
-type FavoriteListener = (favorites: string[]) => void;
+import { Injectable, signal } from '@angular/core';
 
+@Injectable({ providedIn: 'root' })
 export class FavoriteService {
-  private static instance: FavoriteService;
   private readonly STORAGE_KEY = 'properidecide_favorites';
-  private favorites: string[] = [];
-  private listeners: Set<FavoriteListener> = new Set();
+  private _favorites = signal<string[]>(this.loadInitialState());
 
-  private constructor() {
-    this.loadInitialState();
-  }
+  readonly favorites = this._favorites.asReadonly();
 
-  public static getInstance(): FavoriteService {
-    if (!FavoriteService.instance) {
-      FavoriteService.instance = new FavoriteService();
-    }
-    return FavoriteService.instance;
-  }
-
-  private loadInitialState(): void {
+  private loadInitialState(): string[] {
     try {
       const saved = localStorage.getItem(this.STORAGE_KEY);
-      if (saved) {
-        this.favorites = JSON.parse(saved);
-      }
+      return saved ? JSON.parse(saved) : [];
     } catch {
-      this.favorites = [];
+      return [];
     }
   }
 
-  private persistAndNotify(): void {
+  private persist(): void {
     try {
-      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.favorites));
+      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this._favorites()));
     } catch (e) {
-      console.warn('Failed to persist favorites to localStorage', e);
+      console.warn('Failed to persist favorites', e);
     }
-    this.notify();
   }
 
-  private notify(): void {
-    const current = [...this.favorites];
-    this.listeners.forEach((listener) => listener(current));
+  getFavorites(): string[] {
+    return this._favorites();
   }
 
-  public getFavorites(): string[] {
-    return [...this.favorites];
+  isFavorite(id: string): boolean {
+    return this._favorites().includes(id);
   }
 
-  public isFavorite(id: string): boolean {
-    return this.favorites.includes(id);
-  }
-
-  public add(id: string): boolean {
-    if (!this.favorites.includes(id)) {
-      this.favorites.push(id);
-      this.persistAndNotify();
+  add(id: string): boolean {
+    if (!this._favorites().includes(id)) {
+      this._favorites.update(favs => [...favs, id]);
+      this.persist();
       return true;
     }
     return false;
   }
 
-  public remove(id: string): boolean {
-    if (this.favorites.includes(id)) {
-      this.favorites = this.favorites.filter((favId) => favId !== id);
-      this.persistAndNotify();
+  remove(id: string): boolean {
+    if (this._favorites().includes(id)) {
+      this._favorites.update(favs => favs.filter(f => f !== id));
+      this.persist();
       return true;
     }
     return false;
   }
 
-  public toggle(id: string): boolean {
+  toggle(id: string): boolean {
     if (this.isFavorite(id)) {
       this.remove(id);
-      return false; // Removed
+      return false;
     } else {
       this.add(id);
-      return true; // Added
+      return true;
     }
   }
 
-  public clear(): void {
-    this.favorites = [];
-    this.persistAndNotify();
-  }
-
-  public subscribe(listener: FavoriteListener): () => void {
-    this.listeners.add(listener);
-    listener([...this.favorites]);
-    return () => {
-      this.listeners.delete(listener);
-    };
+  clear(): void {
+    this._favorites.set([]);
+    this.persist();
   }
 }
-
-export const favoriteService = FavoriteService.getInstance();

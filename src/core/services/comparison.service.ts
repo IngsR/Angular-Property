@@ -1,84 +1,64 @@
-type ComparisonListener = (comparisonList: string[]) => void;
+import { Injectable, signal } from '@angular/core';
 
+@Injectable({ providedIn: 'root' })
 export class ComparisonService {
-  private static instance: ComparisonService;
   private readonly STORAGE_KEY = 'properidecide_comparison';
-  public readonly MAX_COMPARISON_ITEMS = 2; // Strict limit: max 2 properties
+  readonly MAX_COMPARISON_ITEMS = 2;
 
-  private comparisonList: string[] = [];
-  private listeners: Set<ComparisonListener> = new Set();
+  private _comparisonList = signal<string[]>(this.loadInitialState());
+  readonly comparisonList = this._comparisonList.asReadonly();
 
-  private constructor() {
-    this.loadInitialState();
-  }
-
-  public static getInstance(): ComparisonService {
-    if (!ComparisonService.instance) {
-      ComparisonService.instance = new ComparisonService();
-    }
-    return ComparisonService.instance;
-  }
-
-  private loadInitialState(): void {
+  private loadInitialState(): string[] {
     try {
       const saved = localStorage.getItem(this.STORAGE_KEY);
       if (saved) {
         const parsed = JSON.parse(saved);
-        // Ensure max 2
-        this.comparisonList = Array.isArray(parsed) ? parsed.slice(0, this.MAX_COMPARISON_ITEMS) : [];
+        return Array.isArray(parsed) ? parsed.slice(0, this.MAX_COMPARISON_ITEMS) : [];
       }
+      return [];
     } catch {
-      this.comparisonList = [];
+      return [];
     }
   }
 
-  private persistAndNotify(): void {
+  private persist(): void {
     try {
-      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.comparisonList));
+      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this._comparisonList()));
     } catch (e) {
-      console.warn('Failed to persist comparison list to localStorage', e);
+      console.warn('Failed to persist comparison list', e);
     }
-    this.notify();
   }
 
-  private notify(): void {
-    const current = [...this.comparisonList];
-    this.listeners.forEach((listener) => listener(current));
+  getComparisonList(): string[] {
+    return this._comparisonList();
   }
 
-  public getComparisonList(): string[] {
-    return [...this.comparisonList];
+  isInComparison(id: string): boolean {
+    return this._comparisonList().includes(id);
   }
 
-  public isInComparison(id: string): boolean {
-    return this.comparisonList.includes(id);
-  }
-
-  public add(id: string): { success: boolean; message?: string } {
-    if (this.comparisonList.includes(id)) {
+  add(id: string): { success: boolean; message?: string } {
+    if (this._comparisonList().includes(id)) {
       return { success: false, message: 'Properti sudah ada di perbandingan' };
     }
-    if (this.comparisonList.length >= this.MAX_COMPARISON_ITEMS) {
-      return {
-        success: false,
-        message: `Maksimal ${this.MAX_COMPARISON_ITEMS} properti untuk dibandingkan`,
-      };
+    if (this._comparisonList().length >= this.MAX_COMPARISON_ITEMS) {
+      return { success: false, message: `Maksimal ${this.MAX_COMPARISON_ITEMS} properti untuk dibandingkan` };
     }
-    this.comparisonList.push(id);
-    this.persistAndNotify();
+    this._comparisonList.update(list => [...list, id]);
+    this.persist();
     return { success: true, message: 'Properti ditambahkan ke perbandingan' };
   }
 
-  public remove(id: string): boolean {
-    if (this.comparisonList.includes(id)) {
-      this.comparisonList = this.comparisonList.filter((item) => item !== id);
-      this.persistAndNotify();
+  remove(id: string): boolean {
+    if (this._comparisonList().includes(id)) {
+      this._comparisonList.update(list => list.filter(item => item !== id));
+      this.persist();
       return true;
     }
     return false;
   }
 
-  public toggle(id: string): { isInComparison: boolean; message: string } {
+  toggle(id: string): { isInComparison: boolean; message: string } {
     if (this.isInComparison(id)) {
       this.remove(id);
       return { isInComparison: false, message: 'Properti dikeluarkan dari perbandingan' };
@@ -92,18 +72,8 @@ export class ComparisonService {
     }
   }
 
-  public clear(): void {
-    this.comparisonList = [];
-    this.persistAndNotify();
-  }
-
-  public subscribe(listener: ComparisonListener): () => void {
-    this.listeners.add(listener);
-    listener([...this.comparisonList]);
-    return () => {
-      this.listeners.delete(listener);
-    };
+  clear(): void {
+    this._comparisonList.set([]);
+    this.persist();
   }
 }
-
-export const comparisonService = ComparisonService.getInstance();

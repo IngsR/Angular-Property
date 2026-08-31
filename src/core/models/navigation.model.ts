@@ -1,10 +1,8 @@
-import { LucideIcon } from 'lucide-react';
-
 export interface NavRoute {
   path: string;
   title: string;
   label: string;
-  icon?: LucideIcon;
+  icon?: string;
   exact?: boolean;
 }
 

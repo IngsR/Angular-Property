@@ -1,70 +1,28 @@
-export type NotificationType = 'success' | 'info' | 'warning' | 'error';
+import { Injectable, signal } from '@angular/core';
+import { ToastNotification, NotificationType } from '../types/notification.types';
 
-export interface ToastNotification {
-  id: string;
-  message: string;
-  type: NotificationType;
-  durationMs?: number;
-}
-
-type NotificationListener = (toast: ToastNotification | null) => void;
-
+@Injectable({ providedIn: 'root' })
 export class NotificationService {
-  private static instance: NotificationService;
-  private currentToast: ToastNotification | null = null;
-  private timer: any = null;
-  private listeners: Set<NotificationListener> = new Set();
+  private _toast = signal<ToastNotification | null>(null);
+  readonly toast = this._toast.asReadonly();
+  private timer: ReturnType<typeof setTimeout> | null = null;
 
-  private constructor() {}
-
-  public static getInstance(): NotificationService {
-    if (!NotificationService.instance) {
-      NotificationService.instance = new NotificationService();
-    }
-    return NotificationService.instance;
-  }
-
-  public show(message: string, type: NotificationType = 'success', durationMs = 2800): void {
-    if (this.timer) {
-      clearTimeout(this.timer);
-    }
-
+  show(message: string, type: NotificationType = 'success', durationMs = 2800): void {
+    if (this.timer) clearTimeout(this.timer);
     const toast: ToastNotification = {
       id: Math.random().toString(36).substring(2, 9),
       message,
       type,
       durationMs,
     };
-
-    this.currentToast = toast;
-    this.notify();
-
+    this._toast.set(toast);
     this.timer = setTimeout(() => {
-      this.currentToast = null;
-      this.notify();
+      this._toast.set(null);
     }, durationMs);
   }
 
-  public dismiss(): void {
-    if (this.timer) {
-      clearTimeout(this.timer);
-      this.timer = null;
-    }
-    this.currentToast = null;
-    this.notify();
-  }
-
-  private notify(): void {
-    this.listeners.forEach((listener) => listener(this.currentToast));
-  }
-
-  public subscribe(listener: NotificationListener): () => void {
-    this.listeners.add(listener);
-    listener(this.currentToast);
-    return () => {
-      this.listeners.delete(listener);
-    };
+  dismiss(): void {
+    if (this.timer) { clearTimeout(this.timer); this.timer = null; }
+    this._toast.set(null);
   }
 }
-
-export const notificationService = NotificationService.getInstance();
