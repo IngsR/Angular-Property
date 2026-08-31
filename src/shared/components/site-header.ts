@@ -14,11 +14,9 @@ import { CommonModule } from '@angular/common';
         <div class="flex items-center justify-between h-14 sm:h-20 gap-2 sm:gap-4">
 
           <!-- Brand Logo -->
-          <a routerLink="/" class="flex items-center gap-2 cursor-pointer group select-none shrink-0">
-            <div [class]="'w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center transition-all shadow-sm shrink-0 ' + (isHomePage ? 'bg-white/15 text-white backdrop-blur-md border border-white/20 group-hover:bg-blue-600' : 'bg-slate-900 text-white group-hover:bg-blue-600')">
-              <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
-              </svg>
+          <a routerLink="/" class="flex items-center gap-2.5 cursor-pointer group select-none shrink-0">
+            <div [class]="'w-9 h-9 sm:w-10 sm:h-10 rounded-xl overflow-hidden flex items-center justify-center transition-all shadow-xs shrink-0 ' + (isHomePage ? 'bg-white/10 border border-white/20' : 'bg-slate-100 border border-slate-200')">
+              <img src="assets/logo.jpg" alt="HouseING Property Logo" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
             </div>
             <div class="flex items-baseline gap-1.5">
               <span [class]="'text-sm sm:text-lg font-black tracking-tight ' + (isHomePage ? 'text-white' : 'text-slate-900')">HouseING Property</span>

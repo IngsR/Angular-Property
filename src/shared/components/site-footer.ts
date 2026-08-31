@@ -12,8 +12,8 @@ import { Router } from '@angular/router';
           <!-- Brand Info -->
           <div class="lg:col-span-2 space-y-4">
             <div class="flex items-center gap-2.5">
-              <div class="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white shadow-sm">
-                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+              <div class="w-10 h-10 rounded-xl overflow-hidden shadow-sm shrink-0 border border-slate-700 bg-white/10 flex items-center justify-center">
+                <img src="assets/logo.jpg" alt="HouseING Property Logo" class="w-full h-full object-cover" />
               </div>
               <span class="text-lg font-bold text-white tracking-tight">HouseING Property</span>
             </div>

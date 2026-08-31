@@ -32,3 +32,5 @@ bun.lockb
 .DS_Store
 *.log
 .env*
+
+.angular/cache/
