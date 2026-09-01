@@ -2,12 +2,12 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, OnInit, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
-import { ComparisonService } from '../../core/services/comparison.service';
-import { FavoriteService } from '../../core/services/favorite.service';
-import { NotificationService } from '../../core/services/notification.service';
-import { PropertyService } from '../../core/services/property.service';
-import { Property, PropertyType } from '../../core/types/property.types';
-import { PropertyCardComponent } from '../discovery/components/property-card.component';
+import { ComparisonService } from '../../../core/services/comparison.service';
+import { FavoriteService } from '../../../core/services/favorite.service';
+import { NotificationService } from '../../../core/services/notification.service';
+import { PropertyService } from '../../../core/services/property.service';
+import { Property, PropertyType } from '../../../core/types/property.types';
+import { PropertyCardComponent } from '../../discovery/components/property-card.component';
 
 @Component({
   selector: 'app-home-page',

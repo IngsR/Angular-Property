@@ -10,16 +10,21 @@ import {
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { ComparisonService } from '../../core/services/comparison.service';
-import { FavoriteService } from '../../core/services/favorite.service';
-import { NotificationService } from '../../core/services/notification.service';
-import { PropertyService } from '../../core/services/property.service';
-import { FloorPlan, ImageCategory, Property, PropertyImage } from '../../core/types/property.types';
-import { BreadcrumbsComponent } from '../../shared/components/breadcrumbs.component';
-import { RupiahPipe } from '../../shared/pipes/rupiah.pipe';
-import { EmptyStateComponent } from '../../shared/ui/empty-state.component';
-import { SkeletonComponent } from '../../shared/ui/skeleton.component';
-import { PropertyCardComponent } from '../discovery/components/property-card.component';
+import { ComparisonService } from '../../../core/services/comparison.service';
+import { FavoriteService } from '../../../core/services/favorite.service';
+import { NotificationService } from '../../../core/services/notification.service';
+import { PropertyService } from '../../../core/services/property.service';
+import {
+  FloorPlan,
+  ImageCategory,
+  Property,
+  PropertyImage,
+} from '../../../core/types/property.types';
+import { BreadcrumbsComponent } from '../../../shared/components/breadcrumbs.component';
+import { RupiahPipe } from '../../../shared/pipes/rupiah.pipe';
+import { EmptyStateComponent } from '../../../shared/ui/empty-state.component';
+import { SkeletonComponent } from '../../../shared/ui/skeleton.component';
+import { PropertyCardComponent } from '../../discovery/components/property-card.component';
 
 @Component({
   selector: 'app-property-detail-page',

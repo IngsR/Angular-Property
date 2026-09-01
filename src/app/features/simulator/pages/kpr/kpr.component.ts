@@ -9,10 +9,10 @@ import {
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { calculateKpr } from '../../../core/services/kpr.service';
-import { KprInput, KprResult } from '../../../core/types/kpr.types';
-import { BreadcrumbsComponent } from '../../../shared/components/breadcrumbs.component';
-import { RupiahPipe } from '../../../shared/pipes/rupiah.pipe';
+import { calculateKpr } from '../../../../core/services/kpr.service';
+import { KprInput, KprResult } from '../../../../core/types/kpr.types';
+import { BreadcrumbsComponent } from '../../../../shared/components/breadcrumbs.component';
+import { RupiahPipe } from '../../../../shared/pipes/rupiah.pipe';
 
 @Component({
   selector: 'app-kpr-simulator-page',

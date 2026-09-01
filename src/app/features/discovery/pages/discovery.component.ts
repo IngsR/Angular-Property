@@ -13,20 +13,20 @@ import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subject } from 'rxjs';
 import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
-import { ComparisonService } from '../../core/services/comparison.service';
-import { FavoriteService } from '../../core/services/favorite.service';
-import { NotificationService } from '../../core/services/notification.service';
-import { PropertyService } from '../../core/services/property.service';
+import { ComparisonService } from '../../../core/services/comparison.service';
+import { FavoriteService } from '../../../core/services/favorite.service';
+import { NotificationService } from '../../../core/services/notification.service';
+import { PropertyService } from '../../../core/services/property.service';
 import {
   Property,
   PropertyQuery,
   PropertySortOption,
   PropertyType,
-} from '../../core/types/property.types';
-import { BreadcrumbsComponent } from '../../shared/components/breadcrumbs.component';
-import { PropertyCardSkeletonComponent } from '../../shared/ui/card-skeleton.component';
-import { ModalComponent } from '../../shared/ui/modal.component';
-import { PropertyCardComponent } from './components/property-card.component';
+} from '../../../core/types/property.types';
+import { BreadcrumbsComponent } from '../../../shared/components/breadcrumbs.component';
+import { PropertyCardSkeletonComponent } from '../../../shared/ui/card-skeleton.component';
+import { ModalComponent } from '../../../shared/ui/modal.component';
+import { PropertyCardComponent } from '../../discovery/components/property-card.component';
 
 @Component({
   selector: 'app-property-discovery-page',

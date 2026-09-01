@@ -8,15 +8,15 @@ import {
   signal,
 } from '@angular/core';
 import { Router } from '@angular/router';
-import { ComparisonService } from '../../core/services/comparison.service';
-import { NotificationService } from '../../core/services/notification.service';
-import { PropertyService } from '../../core/services/property.service';
-import { Property } from '../../core/types/property.types';
-import { BreadcrumbsComponent } from '../../shared/components/breadcrumbs.component';
-import { RupiahPipe } from '../../shared/pipes/rupiah.pipe';
-import { EmptyStateComponent } from '../../shared/ui/empty-state.component';
-import { ModalComponent } from '../../shared/ui/modal.component';
-import { formatRupiah } from '../../shared/utils/formatters';
+import { ComparisonService } from '../../../core/services/comparison.service';
+import { NotificationService } from '../../../core/services/notification.service';
+import { PropertyService } from '../../../core/services/property.service';
+import { Property } from '../../../core/types/property.types';
+import { BreadcrumbsComponent } from '../../../shared/components/breadcrumbs.component';
+import { RupiahPipe } from '../../../shared/pipes/rupiah.pipe';
+import { EmptyStateComponent } from '../../../shared/ui/empty-state.component';
+import { ModalComponent } from '../../../shared/ui/modal.component';
+import { formatRupiah } from '../../../shared/utils/formatters';
 
 @Component({
   selector: 'app-comparison-page',

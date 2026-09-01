@@ -8,15 +8,15 @@ import {
   untracked,
 } from '@angular/core';
 import { Router } from '@angular/router';
-import { ComparisonService } from '../../core/services/comparison.service';
-import { FavoriteService } from '../../core/services/favorite.service';
-import { NotificationService } from '../../core/services/notification.service';
-import { PropertyService } from '../../core/services/property.service';
-import { Property } from '../../core/types/property.types';
-import { BreadcrumbsComponent } from '../../shared/components/breadcrumbs.component';
-import { EmptyStateComponent } from '../../shared/ui/empty-state.component';
-import { SkeletonComponent } from '../../shared/ui/skeleton.component';
-import { PropertyCardComponent } from '../discovery/components/property-card.component';
+import { ComparisonService } from '../../../core/services/comparison.service';
+import { FavoriteService } from '../../../core/services/favorite.service';
+import { NotificationService } from '../../../core/services/notification.service';
+import { PropertyService } from '../../../core/services/property.service';
+import { Property } from '../../../core/types/property.types';
+import { BreadcrumbsComponent } from '../../../shared/components/breadcrumbs.component';
+import { EmptyStateComponent } from '../../../shared/ui/empty-state.component';
+import { SkeletonComponent } from '../../../shared/ui/skeleton.component';
+import { PropertyCardComponent } from '../../discovery/components/property-card.component';
 
 @Component({
   selector: 'app-favorites-page',
