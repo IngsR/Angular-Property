@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Property, PropertyType } from '../../../core/types/property.types';
-import { propertyRepository } from '../../../core/repositories/property.repository';
+import { PropertyService } from '../../../core/services/property.service';
 import { PropertyCardComponent } from '../../discovery/components/property-card';
 import { RupiahPipe } from '../../../shared/pipes/rupiah.pipe';
 import { FavoriteService } from '../../../core/services/favorite.service';
@@ -183,20 +183,21 @@ import { NotificationService } from '../../../core/services/notification.service
   `,
 })
 export class HomePageComponent implements OnInit {
-  private router = inject(Router);
-  private favSvc = inject(FavoriteService);
-  private compSvc = inject(ComparisonService);
-  private notifSvc = inject(NotificationService);
+  private readonly router = inject(Router);
+  private readonly propertyService = inject(PropertyService);
+  private readonly favSvc = inject(FavoriteService);
+  private readonly compSvc = inject(ComparisonService);
+  private readonly notifSvc = inject(NotificationService);
 
-  featuredProperties = signal<Property[]>([]);
-  cities = signal<string[]>([]);
-  propertyTypes = signal<PropertyType[]>([]);
+  readonly featuredProperties = signal<Property[]>([]);
+  readonly cities = signal<string[]>([]);
+  readonly propertyTypes = signal<PropertyType[]>([]);
 
   searchKeyword = '';
   searchCity = 'ALL';
   searchType = 'ALL';
 
-  buyingTips = [
+  readonly buyingTips = [
     {
       step: 'Langkah 1 · Legalitas',
       title: 'Cek Keaslian Sertifikat & Izin Bangunan (PBG)',
@@ -240,9 +241,9 @@ export class HomePageComponent implements OnInit {
 
   async ngOnInit(): Promise<void> {
     const [featured, cityList, types] = await Promise.all([
-      propertyRepository.getFeaturedProperties(6),
-      propertyRepository.getCities(),
-      propertyRepository.getPropertyTypes(),
+      this.propertyService.getFeaturedProperties(6),
+      this.propertyService.getCities(),
+      this.propertyService.getPropertyTypes(),
     ]);
     this.featuredProperties.set(featured);
     this.cities.set(cityList);

@@ -87,9 +87,10 @@ export function calculateKpr(input: KprInput): KprResult {
     monthlyInstallment = (loanPrincipal * (monthlyRate * factor)) / (factor - 1);
   }
 
-  const totalPayment = monthlyInstallment * totalMonths;
+  const roundedMonthlyInstallment = Math.round(monthlyInstallment);
+  const totalPayment = roundedMonthlyInstallment * totalMonths;
   const totalInterest = totalPayment - loanPrincipal;
-  const recommendedMinimumIncome = monthlyInstallment * 3; // Rule: 30-33% DSR (Debt Service Ratio)
+  const recommendedMinimumIncome = Math.round(roundedMonthlyInstallment * 3); // Rule: 30-33% DSR (Debt Service Ratio)
 
   // Generate Year-by-Year Amortization Schedule
   const schedule: KprAmortizationYear[] = [];

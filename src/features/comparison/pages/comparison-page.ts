@@ -2,7 +2,7 @@ import { Component, OnInit, inject, signal, computed } from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { Property } from '../../../core/types/property.types';
-import { propertyRepository } from '../../../core/repositories/property.repository';
+import { PropertyService } from '../../../core/services/property.service';
 import { formatRupiah } from '../../../shared/utils/formatters';
 import { BreadcrumbsComponent } from '../../../shared/components/breadcrumbs';
 import { EmptyStateComponent } from '../../../shared/ui/empty-state';
@@ -53,7 +53,7 @@ import { RupiahPipe } from '../../../shared/pipes/rupiah.pipe';
             @if (properties().length < 2) {
               <button
                 type="button"
-                (click)="isAddModalOpen = true"
+                (click)="isAddModalOpen.set(true)"
                 class="flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white shadow-xs transition-all active:scale-95"
               >
                 <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
@@ -82,7 +82,7 @@ import { RupiahPipe } from '../../../shared/pipes/rupiah.pipe';
             </div>
             <button
               type="button"
-              (click)="isAddModalOpen = true"
+              (click)="isAddModalOpen.set(true)"
               class="px-4 py-1.5 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition-all active:scale-95 shrink-0 shadow-xs"
             >
               + Pilih Properti Kedua
@@ -195,7 +195,7 @@ import { RupiahPipe } from '../../../shared/pipes/rupiah.pipe';
                 </div>
                 <button
                   type="button"
-                  (click)="isAddModalOpen = true"
+                  (click)="isAddModalOpen.set(true)"
                   class="px-4 py-2 rounded-full bg-slate-900 text-white text-xs font-bold shadow-xs active:scale-95 hover:bg-blue-600 transition-all"
                 >
                   + Pilih Properti
@@ -249,8 +249,8 @@ import { RupiahPipe } from '../../../shared/pipes/rupiah.pipe';
 
       <!-- Add Property Modal -->
       <app-modal
-        [isOpen]="isAddModalOpen"
-        (close)="isAddModalOpen = false"
+        [isOpen]="isAddModalOpen()"
+        (closed)="isAddModalOpen.set(false)"
         title="Pilih Properti Kedua untuk Komparasi"
         maxWidth="2xl"
       >
@@ -284,19 +284,20 @@ import { RupiahPipe } from '../../../shared/pipes/rupiah.pipe';
   `,
 })
 export class ComparisonPageComponent implements OnInit {
-  private router = inject(Router);
-  private compSvc = inject(ComparisonService);
-  private notifSvc = inject(NotificationService);
+  private readonly router = inject(Router);
+  private readonly propertyService = inject(PropertyService);
+  private readonly compSvc = inject(ComparisonService);
+  private readonly notifSvc = inject(NotificationService);
 
-  properties = signal<Property[]>([]);
-  allProperties = signal<Property[]>([]);
-  loading = signal(true);
-  isAddModalOpen = false;
+  readonly properties = signal<Property[]>([]);
+  readonly allProperties = signal<Property[]>([]);
+  readonly loading = signal(true);
+  readonly isAddModalOpen = signal(false);
 
-  propA = computed(() => this.properties()[0] || null);
-  propB = computed(() => this.properties()[1] || null);
+  readonly propA = computed(() => this.properties()[0] || null);
+  readonly propB = computed(() => this.properties()[1] || null);
 
-  availableToAdd = computed(() => {
+  readonly availableToAdd = computed(() => {
     const currentIds = this.properties().map((p) => p.id);
     return this.allProperties().filter((p) => !currentIds.includes(p.id));
   });
@@ -309,8 +310,8 @@ export class ComparisonPageComponent implements OnInit {
     this.loading.set(true);
     const activeList = this.compSvc.getComparisonList().slice(0, 2);
     const [comparedData, allData] = await Promise.all([
-      propertyRepository.getPropertiesByIds(activeList),
-      propertyRepository.getProperties({ limit: 30 }),
+      this.propertyService.getPropertiesByIds(activeList),
+      this.propertyService.getProperties({ limit: 30 }),
     ]);
     this.properties.set(comparedData);
     this.allProperties.set(allData.properties);
@@ -386,7 +387,7 @@ export class ComparisonPageComponent implements OnInit {
     const res = this.compSvc.add(id);
     if (res.success) {
       this.notifSvc.show(res.message || 'Properti ditambahkan ke perbandingan', 'success');
-      this.isAddModalOpen = false;
+      this.isAddModalOpen.set(false);
       await this.refreshData();
     } else {
       this.notifSvc.show(res.message || 'Gagal menambahkan', 'warning');

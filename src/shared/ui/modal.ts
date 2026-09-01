@@ -41,6 +41,7 @@ export class ModalComponent {
   @Input() title = '';
   @Input() maxWidth: 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '4xl' | 'full' = 'lg';
   @Output() close = new EventEmitter<void>();
+  @Output() closed = new EventEmitter<void>();
 
   get maxWidthClass(): string {
     const map: Record<string, string> = {
@@ -52,10 +53,16 @@ export class ModalComponent {
 
   @HostListener('document:keydown.escape')
   onEscape(): void {
-    if (this.isOpen) this.close.emit();
+    if (this.isOpen) {
+      this.close.emit();
+      this.closed.emit();
+    }
   }
 
   onBackdropClick(event: Event): void {
-    if (event.target === event.currentTarget) this.close.emit();
+    if (event.target === event.currentTarget) {
+      this.close.emit();
+      this.closed.emit();
+    }
   }
 }

@@ -1,8 +1,8 @@
-import { Component, OnInit, inject, signal, effect } from '@angular/core';
+import { Component, inject, signal, effect, untracked } from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { Property } from '../../../core/types/property.types';
-import { propertyRepository } from '../../../core/repositories/property.repository';
+import { PropertyService } from '../../../core/services/property.service';
 import { PropertyCardComponent } from '../../discovery/components/property-card';
 import { BreadcrumbsComponent } from '../../../shared/components/breadcrumbs';
 import { EmptyStateComponent } from '../../../shared/ui/empty-state';
@@ -14,16 +14,24 @@ import { NotificationService } from '../../../core/services/notification.service
 @Component({
   selector: 'app-favorites-page',
   standalone: true,
-  imports: [CommonModule, PropertyCardComponent, BreadcrumbsComponent, EmptyStateComponent, SkeletonComponent],
+  imports: [
+    CommonModule,
+    PropertyCardComponent,
+    BreadcrumbsComponent,
+    EmptyStateComponent,
+    SkeletonComponent,
+  ],
   template: `
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
       <app-breadcrumbs [items]="[{ label: 'Properti Tersimpan (Favorit)' }]" />
 
       <!-- Header Bar -->
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-6 rounded-2xl border border-slate-200/80 shadow-xs">
+      <section aria-label="Informasi Favorit" class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-6 rounded-2xl border border-slate-200/80 shadow-xs">
         <div class="flex items-center gap-3">
           <div class="p-2.5 rounded-xl bg-rose-50 text-rose-600">
-            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/>
+            </svg>
           </div>
           <div>
             <h1 class="text-xl sm:text-2xl font-extrabold text-slate-900">
@@ -40,22 +48,26 @@ import { NotificationService } from '../../../core/services/notification.service
             <button
               type="button"
               (click)="navigate('/compare')"
-              class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border border-slate-300 bg-white text-slate-800 hover:bg-slate-50 text-xs font-semibold shadow-xs transition-all"
+              class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border border-slate-300 bg-white text-slate-800 hover:bg-slate-50 text-xs font-semibold shadow-xs transition-all active:scale-95"
             >
-              <svg class="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
+              <svg class="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
+              </svg>
               <span>Buka Komparasi</span>
             </button>
             <button
               type="button"
               (click)="clearFavorites()"
-              class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold text-rose-600 hover:bg-rose-50 transition-all"
+              class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold text-rose-600 hover:bg-rose-50 transition-all active:scale-95"
             >
-              <svg class="w-4 h-4 text-rose-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
+              <svg class="w-4 h-4 text-rose-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
+              </svg>
               <span>Hapus Semua</span>
             </button>
           </div>
         }
-      </div>
+      </section>
 
       <!-- Content -->
       @if (loading()) {
@@ -89,24 +101,23 @@ import { NotificationService } from '../../../core/services/notification.service
     </main>
   `,
 })
-export class FavoritesPageComponent implements OnInit {
-  private router = inject(Router);
+export class FavoritesPageComponent {
+  private readonly router = inject(Router);
+  private readonly propertyService = inject(PropertyService);
   readonly favSvc = inject(FavoriteService);
   readonly compSvc = inject(ComparisonService);
-  private notifSvc = inject(NotificationService);
+  private readonly notifSvc = inject(NotificationService);
 
-  properties = signal<Property[]>([]);
-  loading = signal(true);
+  readonly properties = signal<Property[]>([]);
+  readonly loading = signal(true);
 
   constructor() {
     effect(async () => {
       const favIds = this.favSvc.favorites();
-      await this.loadFavorites(favIds);
+      untracked(() => {
+        this.loadFavorites(favIds);
+      });
     });
-  }
-
-  async ngOnInit(): Promise<void> {
-    await this.loadFavorites(this.favSvc.getFavorites());
   }
 
   async loadFavorites(ids: string[]): Promise<void> {
@@ -115,7 +126,7 @@ export class FavoritesPageComponent implements OnInit {
       if (ids.length === 0) {
         this.properties.set([]);
       } else {
-        const data = await propertyRepository.getPropertiesByIds(ids);
+        const data = await this.propertyService.getPropertiesByIds(ids);
         this.properties.set(data);
       }
     } catch (err) {
