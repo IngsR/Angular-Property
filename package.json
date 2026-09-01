@@ -6,10 +6,10 @@
     "start": "ng serve --port 4200 --host 0.0.0.0",
     "dev": "ng serve --port 4200 --host 0.0.0.0",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development"
+    "watch": "ng build --watch --configuration development",
+    "test": "vitest run"
   },
   "private": true,
-  "packageManager": "bun@1.4.0",
   "dependencies": {
     "@angular/common": "^22.1.0",
     "@angular/compiler": "^22.1.0",
@@ -27,6 +27,7 @@
     "@tailwindcss/postcss": "^4.1.14",
     "postcss": "^8.5.3",
     "prettier": "^3.8.1",
+    "vitest": "^4.0.8",
     "tailwindcss": "^4.1.14",
     "typescript": "~6.0.2"
   }
