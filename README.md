@@ -1,29 +1,29 @@
-HouseING Property
+# HouseING Property
 
 HouseING Property adalah project frontend yang saya kembangkan untuk mencoba membuat pengalaman mencari properti dalam satu alur yang sederhana.
 
-Saya ingin pengguna tidak hanya melihat daftar rumah, tetapi juga bisa memilih properti yang menarik, melihat detailnya, membandingkannya dengan pilihan lain, dan melihat perkiraan cicilan sebelum menentukan pilihan.
+Saya ingin pengguna tidak hanya melihat daftar properti, tetapi juga dapat melihat detail, menyimpan pilihan, membandingkan beberapa properti, dan menghitung perkiraan cicilan KPR sebelum menentukan pilihan.
 
-Dari ide tersebut, saya membuat beberapa bagian utama seperti property discovery, filter, detail properti, favorit, comparison, dan simulator KPR.
+Dari ide tersebut, saya membangun beberapa fitur utama seperti property discovery, filter, detail properti, favorit, comparison, dan simulator KPR.
 
-Project ini menggunakan data mock dan belum ditujukan sebagai marketplace properti. Fokus saya adalah membangun pengalaman pengguna dan mencoba menerapkan Angular pada aplikasi yang memiliki beberapa fitur dan state yang saling berhubungan.
+Project ini menggunakan data mock dan belum ditujukan sebagai marketplace properti. Fokus utamanya adalah pengembangan frontend dan bagaimana beberapa fitur tersebut dapat bekerja sebagai satu aplikasi.
 
-Fitur
+## Fitur
 
-- Mencari dan memfilter properti.
-- Melihat detail properti.
-- Menyimpan properti favorit.
-- Membandingkan beberapa properti.
-- Menghitung estimasi cicilan KPR.
-- Responsive untuk desktop dan mobile.
+- Mencari dan memfilter properti
+- Melihat detail properti
+- Menyimpan properti sebagai favorit
+- Membandingkan beberapa properti
+- Menghitung estimasi cicilan KPR
+- Responsive untuk desktop dan mobile
 
-Pendekatan
+## Pendekatan
 
-Saya menggunakan Angular dan TypeScript untuk membangun aplikasi ini.
+Saya menggunakan Angular dan TypeScript sebagai dasar pengembangan.
 
-Setiap fitur dibuat sebagai bagian yang terpisah agar lebih mudah dikembangkan. Data dan logic yang digunakan bersama dikelola melalui service, sedangkan komponen menangani tampilan dan interaksi pengguna.
+Fitur aplikasi dipisahkan agar lebih mudah dikembangkan dan dipelihara. Komponen digunakan untuk tampilan dan interaksi, sedangkan logic yang digunakan bersama ditempatkan pada service.
 
-Teknologi utama:
+Teknologi yang digunakan:
 
 - Angular
 - TypeScript
@@ -32,25 +32,29 @@ Teknologi utama:
 - Tailwind CSS
 - Vitest
 
-Tentang Project
+## Tentang Project
 
-HouseING Property saya buat sebagai bagian dari portfolio untuk memperdalam Angular sekaligus mencoba menerapkan cara berpikir yang biasa saya gunakan ketika membuat aplikasi web: mulai dari menentukan alur yang ingin dibuat, membagi fitur, kemudian membangun dan menguji setiap bagiannya.
+HouseING Property saya buat sebagai bagian dari portfolio untuk memperdalam Angular sekaligus mencoba menerapkan proses pengembangan frontend pada aplikasi dengan beberapa fitur yang saling berhubungan.
 
-Project ini masih dapat dikembangkan lebih lanjut, terutama jika nantinya menggunakan API dan data properti nyata.
+Saya memulai dari alur pengguna, kemudian membagi aplikasi menjadi beberapa fitur dan membangunnya secara bertahap.
 
-Menjalankan Project
+Data properti saat ini masih berupa data mock. Jika dikembangkan lebih lanjut, sumber data dapat diganti dengan API dan backend tanpa perlu mengubah keseluruhan tampilan aplikasi.
+
+## Tentang Saya
+
+Saya Ikhwan Ramadhan, Frontend Engineer dengan latar belakang Teknik Informatika.
+
+Saya tertarik pada pengembangan aplikasi web, terutama bagaimana sebuah masalah dapat diterjemahkan menjadi alur dan antarmuka yang sederhana untuk digunakan.
+
+- GitHub: https://github.com/IngsR
+- LinkedIn: https://www.linkedin.com/in/ikhwn-rdn
+- Website: https://ikhwann.my.id
+
+## Menjalankan Project
 
 Pastikan Node.js 20 atau versi yang lebih baru sudah terpasang.
 
+### Install
+
+```bash
 npm install
-npm start
-
-Buka "http://localhost:4200/" pada browser.
-
-Untuk menjalankan test:
-
-npm test
-
-Untuk membuat production build:
-
-npm run build
