@@ -14,9 +14,9 @@ import { NotificationService } from '../../core/services/notification.service';
 import { PropertyService } from '../../core/services/property.service';
 import { Property } from '../../core/types/property.types';
 import { BreadcrumbsComponent } from '../../shared/components/breadcrumbs.component';
-import { EmptyStateComponent } from '../../shared/ui/empty.component';
+import { EmptyStateComponent } from '../../shared/ui/empty-state.component';
 import { SkeletonComponent } from '../../shared/ui/skeleton.component';
-import { PropertyCardComponent } from '../discovery/components/card.component';
+import { PropertyCardComponent } from '../discovery/components/property-card.component';
 
 @Component({
   selector: 'app-favorites-page',

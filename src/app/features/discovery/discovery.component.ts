@@ -26,7 +26,7 @@ import {
 import { BreadcrumbsComponent } from '../../shared/components/breadcrumbs.component';
 import { PropertyCardSkeletonComponent } from '../../shared/ui/card-skeleton.component';
 import { ModalComponent } from '../../shared/ui/modal.component';
-import { PropertyCardComponent } from './components/card.component';
+import { PropertyCardComponent } from './components/property-card.component';
 
 @Component({
   selector: 'app-property-discovery-page',

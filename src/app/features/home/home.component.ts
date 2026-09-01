@@ -7,7 +7,7 @@ import { FavoriteService } from '../../core/services/favorite.service';
 import { NotificationService } from '../../core/services/notification.service';
 import { PropertyService } from '../../core/services/property.service';
 import { Property, PropertyType } from '../../core/types/property.types';
-import { PropertyCardComponent } from '../discovery/components/card.component';
+import { PropertyCardComponent } from '../discovery/components/property-card.component';
 
 @Component({
   selector: 'app-home-page',

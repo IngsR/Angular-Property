@@ -17,9 +17,9 @@ import { PropertyService } from '../../core/services/property.service';
 import { FloorPlan, ImageCategory, Property, PropertyImage } from '../../core/types/property.types';
 import { BreadcrumbsComponent } from '../../shared/components/breadcrumbs.component';
 import { RupiahPipe } from '../../shared/pipes/rupiah.pipe';
-import { EmptyStateComponent } from '../../shared/ui/empty.component';
+import { EmptyStateComponent } from '../../shared/ui/empty-state.component';
 import { SkeletonComponent } from '../../shared/ui/skeleton.component';
-import { PropertyCardComponent } from '../discovery/components/card.component';
+import { PropertyCardComponent } from '../discovery/components/property-card.component';
 
 @Component({
   selector: 'app-property-detail-page',
