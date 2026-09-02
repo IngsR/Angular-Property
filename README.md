@@ -46,9 +46,9 @@ Saya Ikhwan Ramadhan, Frontend Engineer dengan latar belakang Teknik Informatika
 
 Saya tertarik pada pengembangan aplikasi web, terutama bagaimana sebuah masalah dapat diterjemahkan menjadi alur dan antarmuka yang sederhana untuk digunakan.
 
-- GitHub: https://github.com/IngsR
-- LinkedIn: https://www.linkedin.com/in/ikhwn-rdn
-- Website: https://ikhwann.my.id
+- GitHub: <https://github.com/IngsR>
+- LinkedIn: <https://www.linkedin.com/in/ikhwn-rdn>
+- Website: <https://ikhwann.my.id>
 
 ## Menjalankan Project
 
@@ -58,3 +58,15 @@ Pastikan Node.js 20 atau versi yang lebih baru sudah terpasang.
 
 ```bash
 npm install
+
+### Build Depedency
+```bash
+npm run build
+
+### Running
+```bash
+npm run dev
+
+#### Atau Running Dengan
+```bash
+npm start
